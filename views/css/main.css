@@ -1,69 +1,97 @@
+:root{
+    --color-calido-1: #FB8500;
+    --color-calido-2: #FFB703;
+    --color-centro: #023047;
+    --color-frio-1: #8ECAE6;
+    --color-frio-2: #219EBC;
+
+    --color-m-w: blanchedalmond;
+    
+    --color-nav-calido-complemento: #023047c9;
+}
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-.nav {
-    /* background-color: #023047; */
-    background-color: #023047c9;
-    padding: 30px 10px 20px 100px;
+/* color para el titulo de ITEC en el NAV */
+.k-logo{
+    color: var(--color-m-w) !important;
+}
+
+.k-btn-classroom{
+    background-color: var(--color-calido-1);
+    color:var(--color-centro) !important;
+
+    border-radius: 5px;
+}
+
+.k-nav {
+    background-color: var(--color-frio-2) !important;
+    /* padding: 30px 10px 20px 100px; */
+    padding-top: 30px;
+    padding-bottom: 20px;
     position: sticky;
     top: 0px;
 }
 
-.nav > ul > li {
-    display: inline;
-    list-style: none;
-}
-
-.nav > ul > li a {
-    /* background-color: #8ECAE6; */
-    color:#FB8500;
-    padding: 10px;
-}
-
-.link {
-    list-style: none;
+.k-link {
     text-decoration: none;
     font-size: .9rem;
+    /* color: var(--color-m-w) !important; */
+
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     /* font-family: 'Alegreya', serif; */
     font-family: 'Pangolin', cursive;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
-.slider {
-    height: 80vh;
-    background-color: #219EBC;
+.k-link:hover{
+    color: var(--color-m-w) !important;
 }
 
-.cinta {
-    height: 10rem;
+.k-cinta {
+    /* height: 10rem; */
     background-color: #FFB703;
 }
 
-.cuerpo {
-    height: 4rem;
+.k-cuerpo {
+    height: auto;
     background-color: #8ECAE6;
 }
 
+/* ++++++ ++++ +++++ */
+.k-presentacion {
+    height: 80vh;
+    background-color: var(--color-m-w);
+}
+
+/* cuerpo 1 */
+.k-titulo-c1{
+    height: 5rem;
+}
 
 /* ++++++++++++++++++++++ */
+.k-slider {
+    height: 80vh;
+    background-color: var(--color-frio-1);
+}
 
-.slider{
+.k-slider{
     display: inline-table;
     width: 100%;
-    /* height: 300px;
-    width: 200px; */
 }
-.slider .text{
+
+.k-slider .k-text{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 
-    padding: 0px 300px;
+    /* padding: 0px 300px; */
     word-spacing: 7px;
     letter-spacing: 2px;
     font-size: 1.2rem;
     font-family: monospace;
 }
+
