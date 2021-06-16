@@ -10,6 +10,7 @@
     --color-nav-calido-complemento: #023047c9;
 }
 
+/* Formateando el margin y el padding en toda la página  */
 *{
     margin: 0px;
     padding: 0px;
@@ -20,61 +21,109 @@
     color: var(--color-m-w) !important;
 }
 
+/* btn para el AULA VIRTUAL */
 .k-btn-classroom{
     background-color: var(--color-calido-1);
     color:var(--color-centro) !important;
 
     border-radius: 5px;
 }
+.k-btn-classroom:hover{
+    background-color: var(--color-centro);
+}
 
+/* Estilos navegación */
 .k-nav {
     background-color: var(--color-frio-2) !important;
-    /* padding: 30px 10px 20px 100px; */
     padding-top: 30px;
     padding-bottom: 20px;
     position: sticky;
     top: 0px;
 }
 
+/* Estilos para las opciones de la NAVEGACIÓN */
 .k-link {
     text-decoration: none;
     font-size: .9rem;
     /* color: var(--color-m-w) !important; */
-
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     /* font-family: 'Alegreya', serif; */
     font-family: 'Pangolin', cursive;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 .k-link:hover{
     color: var(--color-m-w) !important;
 }
 
-.k-cinta {
-    /* height: 10rem; */
-    background-color: #FFB703;
-}
 
-.k-cuerpo {
-    height: auto;
-    background-color: #8ECAE6;
-}
 
-/* ++++++ ++++ +++++ */
+/* Sección PRESENTACIÓN, Primera opción */
 .k-presentacion {
-    height: 80vh;
+    /* height: 80vh; */
     background-color: var(--color-m-w);
 }
 
-/* cuerpo 1 */
-.k-titulo-c1{
-    height: 5rem;
+.k-grid{
+    display: grid;
 }
+.k-content-left{
+    align-content: center;
+    height: 80vh;
+}
+.k-content-right{
+    justify-content: center;
+    /* align-content: center; */
+    height: 80vh;
+}
+.k-title-presentacion{
+    letter-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+    color: var(--color-centro);
+}
+.k-parrafo-presentacion{
+    letter-spacing: 1.5px;
+}
+.k-btn-unete{
+    background-color: var(--color-centro) !important;
+    border: 1.5px solid var(--color-frio-2) !important;
+}
+.k-btn-unete:hover{
+    background-color: var(--color-calido-1) !important;
+    border: 1.5px solid var(--color-calido-2) !important;
+    color: var(--color-centro);
+}
+
+.k-prueba{
+    background-color: transparent;
+}
+
+
+
+/* SECCION CINTA */
+.k-cinta {
+    background-color: #FFB703;
+}
+
+/* SECCIÓN CUERPO 1*/
+
+/* alto para el titulo del cuerpo 1 */
+.k-titulo-pc1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.k-titulo-c1{
+    height: 5rem; 
+}
+
+
 
 /* ++++++++++++++++++++++ */
 .k-slider {
-    height: 80vh;
+    height: 40vh;
     background-color: var(--color-frio-1);
 }
 
@@ -94,4 +143,5 @@
     font-size: 1.2rem;
     font-family: monospace;
 }
+/* ++++++++++++++++++++++++++ */
 

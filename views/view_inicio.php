@@ -34,8 +34,8 @@
         <nav class="k-nav navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand k-logo" href="#">
-                    ITEC
-                    <!-- <img src="./views/assets/logo.jpg" alt="" width="80px"> -->
+                    <!-- ITEC -->
+                    <img src="./views/assets/logo.png" alt="" width="80px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -70,44 +70,56 @@
             </div>
         </nav>
 
+        <!-- SECCIÓN PRESENTACIÓN -->
         <section class="k-presentacion ">
 
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1>TU FORMACIÓN <br> HACIA EL <br> EXITO</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sunt culpa, possimus officia dolore deserunt iste quidem dolorum odit quaerat voluptatum aliquid mollitia deleniti, perferendis tempora illum itaque modi aliquam!</p>
-                        <button>ÚNETE, ES GRATIS!</button>
+                        <div class="k-grid k-content-left ">
+                            <div>
+                                <h1 class="k-title-presentacion">TU FORMACIÓN <br> HACIA EL <br> EXITO</h1>
+                                <p class="lead k-parrafo-presentacion">Adquiere habilidades con los cursos, certificados y diplomados en línea que ofrece la institución el Tecnológico en convenio con instituciones acreditadas por la SUNEDU.</p>
+                                <button class="btn btn-primary btn-lg k-btn-unete">ÚNETE, ES GRATIS!</button>
+                                <div class="k-social">
+                                    fb,tw,ytb,wsp,ig
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <h1>imagen!!!</h1>
-                        <img src="#" alt="">
+                        <div class="k-grid k-content-right k-prueba">
+                            <!-- <h1>imagen!!!</h1> -->
+                            <img src="./views/assets/presentacion.png" alt="" width="100%">
+                        </div>
                     </div>
                 </div>
             </div>
 
         </section>
 
-
         <!-- CINTA DE PRESENTACIÓN DE LA PÁGINA DE ITEC -->
         <section class="k-cinta py-5">
 
             <div class="container ">
                 <h1>ÚNETE Y <br> APRENDE CON <br> LOS MEJORES!!</h1>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta error optio assumenda animi dolor ea autem? Nemo reprehenderit et qui totam officiis quasi, asperiores voluptatum laborum excepturi doloribus magni maxime perferendis, iure cumque laudantium atque delectus est? Voluptatibus corrupti ad tempora
+                Contamos con los mejores docentes. . .
 
                 <div class="row py-4">
-                    <div class="col-md-4">
-                        <h3>Lorem, ipsum.</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, alias?</p>
+                    <div class="col-md-4 mt-2">
+                        <img src="./views/assets/tutor.png" width="60px" alt="">
+                        <h3>De la mano del profesor</h3>
+                        <p>Aprende técnicas y métodos de gran valor explicados por los grandes expertos del sector creativo.</p>
                     </div>
-                    <div class="col-md-4">
-                        <h3>Lorem ipsum dolor sit.</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eum, dolorum fugiat nisi eius exercitationem?</p>
+                    <div class="col-md-4 mt-2">
+                        <img src="./views/assets/experto.png" width="60px" alt="">
+                        <h3>Profesores expertos</h3>
+                        <p>Cada profesor imparte solo lo que mejor sabe hacer, asegurando transmitir la pasión y la excelencia en cada lección.</p>
                     </div>
-                    <div class="col-md-4">
-                        <h3>Lorem, ipsum dolor.</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda suscipit harum, quasi soluta consectetur molestias et expedita provident repellat totam.</p>
+                    <div class="col-md-4 mt-2">
+                        <img src="./views/assets/www.png" width="60px" alt="">
+                        <h3>Comparte conocimiento</h3>
+                        <p>Expón tus dudas, pide feedbac, aporta soluciones. Comparte el aprendizaje con el resto de los alumnos de la comunidad.</p>
                     </div>
                 </div>
             </div>
@@ -117,23 +129,23 @@
         <!-- CUERPO 1 -->
         <section>
             <div class="container py-5">
-                <h3 class="mb-5">Alcanza tus metas con ITEC</h2>
+                <h2 class="mb-5 text-center k-titulo-pc1">Alcanza tus metas con ITEC el Tecnológico</h2>
                 <div class="row text-center">
                     <div class="col-md-3">
-                        <h4 class="k-titulo-c1">Lorem ipsum dolor sit amet.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eligendi ex, quidem provident id consequuntur voluptatum odio excepturi expedita doloribus.</p>
+                        <h4 class="k-titulo-c1">Aprende las <br> habilidades más <br> recientes</h4>
+                        <p class="lead">Como ofimática, diseño gráfico, gestión publica, ingles, TIC y muchos más. </p>
                     </div>
                     <div class="col-md-3">
-                        <h4 class="k-titulo-c1">Lorem ipsum dolor sit amet consectetur.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eligendi ex, quidem provident id consequuntur voluptatum odio excepturi expedita doloribus.</p>
+                        <h4 class="k-titulo-c1">Prepárate <br> para una carrera <br> profesional</h4>
+                        <p class="lead">En campos de mucha demanda, como TI, Administración publica e Ingles.</p>
                     </div>
                     <div class="col-md-3">
-                        <h4 class="k-titulo-c1">Lorem ipsum dolor sit.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eligendi ex, quidem provident id consequuntur voluptatum odio excepturi expedita doloribus.</p>
+                        <h4 class="k-titulo-c1">Obtén un <br> diplomado</h4>
+                        <p class="lead">De una de las mejores instituciones en convenio con instituciones y universidades acreditas.</p>
                     </div>
                     <div class="col-md-3">
-                        <h4 class="k-titulo-c1">Lorem, ipsum dolor.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eligendi ex, quidem provident id consequuntur voluptatum odio excepturi expedita doloribus.</p>
+                        <h4 class="k-titulo-c1">Mejora tu <br> organización</h4>
+                        <p class="lead">Con programas de desarrollo y capacitación con mucha demanda.</p>
                     </div>
                 </div>
             </div>
@@ -184,7 +196,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
         -->
 
-        
+        <!-- ICONS TRIBUTOS AUTORES-->
+        <!-- <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
+        <!-- <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
 
     </body>
 </html>
