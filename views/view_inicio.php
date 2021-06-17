@@ -81,8 +81,27 @@
                                 <h1 class="k-title-presentacion">TU FORMACIÓN <br> HACIA EL <br> EXITO</h1>
                                 <p class="lead k-parrafo-presentacion">Adquiere habilidades con los cursos, certificados y diplomados en línea que ofrece la institución el Tecnológico en convenio con instituciones acreditadas por la SUNEDU.</p>
                                 <button class="btn btn-primary btn-lg k-btn-unete">ÚNETE, ES GRATIS!</button>
-                                <div class="k-social">
-                                    fb,tw,ytb,wsp,ig
+                                <div class="k-social my-2">
+                                    <span>
+                                        <a href="#">
+                                            <img src="./views/assets/facebook.png" width="30px" alt="">
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <img src="./views/assets/instagram.png" width="30px" alt="">
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <img src="./views/assets/youtube.png" width="30px" alt="">
+                                        </a>
+                                    </span>
+                                    <span>
+                                        <a href="#">
+                                            <img src="./views/assets/gorjeo.png" width="30px" alt="">
+                                        </a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -132,19 +151,23 @@
                 <h2 class="mb-5 text-center k-titulo-pc1">Alcanza tus metas con ITEC el Tecnológico</h2>
                 <div class="row text-center">
                     <div class="col-md-3">
-                        <h4 class="k-titulo-c1">Aprende las <br> habilidades más <br> recientes</h4>
+                        <img src="./views/assets/leer.png" alt="" width="70px">
+                        <h4 class="k-titulo-c1 mt-4">Aprende las <br> habilidades más <br> recientes</h4>
                         <p class="lead">Como ofimática, diseño gráfico, gestión publica, ingles, TIC y muchos más. </p>
                     </div>
                     <div class="col-md-3">
-                        <h4 class="k-titulo-c1">Prepárate <br> para una carrera <br> profesional</h4>
+                        <img src="./views/assets/cientifico-de-datos.png" alt="" width="70px">
+                        <h4 class="k-titulo-c1 mt-4">Prepárate <br> para una carrera <br> profesional</h4>
                         <p class="lead">En campos de mucha demanda, como TI, Administración publica e Ingles.</p>
                     </div>
                     <div class="col-md-3">
-                        <h4 class="k-titulo-c1">Obtén un <br> diplomado</h4>
+                        <img src="./views/assets/ganador.png" alt="" width="70px">
+                        <h4 class="k-titulo-c1 mt-4">Obtén un <br> diplomado</h4>
                         <p class="lead">De una de las mejores instituciones en convenio con instituciones y universidades acreditas.</p>
                     </div>
                     <div class="col-md-3">
-                        <h4 class="k-titulo-c1">Mejora tu <br> organización</h4>
+                        <img src="./views/assets/clasificacion.png" alt="" width="70px">
+                        <h4 class="k-titulo-c1 mt-4">Mejora tu <br> organización</h4>
                         <p class="lead">Con programas de desarrollo y capacitación con mucha demanda.</p>
                     </div>
                 </div>
@@ -156,11 +179,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
-                        <h3>IMAGEN!!!</h3>
+                        <!-- <h3>IMAGEN!!!</h3> -->
+                        <video src="promocion.mp4" autoplay muted loop width="100%" style="border-radius:5px"></video>
                     </div>
                     <div class="col-md-5">
-                        <h4>ENCUENTRA OPCIONES <br> FLEXIBLES Y <br> ASEQUIBLES</h4>
-                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere similique in et ratione quia recusandae vitae aliquam temporibus ex ipsam libero dolor eos optio, corrupti magni fugiat, adipisci obcaecati cumque id soluta tempora iure commodi! Earum voluptatum consequatur veritatis facere aliquam suscipit quo amet rem neque ipsa. Eius, quod consequatur.</p>
+                        <h4 class="h2 k-title-presentacion">ENCUENTRA OPCIONES <br> FLEXIBLES Y <br> ASEQUIBLES</h4>
+                        <p class="mt-4 lead k-parrafo-presentacion">Elige entre muchas opciones, incluidas cursos gratuitos y diplomados a un precio innovador. Aprende a tu propio ritmo, 100% en linea</p>
                     </div>
                 </div>
             </div>
@@ -197,6 +221,12 @@
         -->
 
         <!-- ICONS TRIBUTOS AUTORES-->
+        <!-- <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
+        <!-- <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
+        <!-- <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
+        <!-- <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
+        <!-- <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
+        <!-- <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/pongsakornred" title="pongsakornRed">pongsakornRed</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
         <!-- <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/iconixar" title="iconixar">iconixar</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
         <!-- <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div> -->
 

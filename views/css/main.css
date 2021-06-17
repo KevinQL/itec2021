@@ -96,6 +96,16 @@
     color: var(--color-centro);
 }
 
+.k-social{
+    padding: 10px 0px;
+}
+.k-social span {
+    margin-right: 16px;
+}
+.k-social span a{
+    text-decoration: none;
+}
+
 .k-prueba{
     background-color: transparent;
 }
@@ -145,3 +155,16 @@
 }
 /* ++++++++++++++++++++++++++ */
 
+
+@media (min-width: 992px) and (max-width: 1200px) and (orientation: landscape) {
+    
+    /* Para controlar el Tamaño de fuente de la navegación de la página  */
+    /* .k-link {
+        font-size: .8rem;
+    } */
+
+    .k-slider {
+        background-color: black;
+    }
+
+}
