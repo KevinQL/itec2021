@@ -156,6 +156,33 @@
 /* ++++++++++++++++++++++++++ */
 
 
+
+/* SECCION FOOTER */
+.k-footer_nav div ul{
+    margin: 0px;
+    padding: 0px;
+}
+.k-footer_nav div ul li{
+    list-style: none;
+    font-size: 1rem;
+}
+.k-footer_nav div ul li a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.k-footer_map iframe{
+    border: 0px solid blanchedalmond;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.k-footer_copy{
+    font-size: .7rem;
+}
+
+/* CONFIGURACION PAGINA RESPONSIVE ENTRE */
 @media (min-width: 992px) and (max-width: 1200px) and (orientation: landscape) {
     
     /* Para controlar el Tamaño de fuente de la navegación de la página  */
@@ -165,6 +192,19 @@
 
     .k-slider {
         background-color: black;
+    }
+
+    
+}
+
+@media (max-width: 600px){
+    
+    /* CONTROLAR EL ALTO DE LA UBICACIÓN EN GOOGLE MAPS  */
+    .k-footer_map{
+        margin-top: 1.5rem;
+    }
+    .k-footer_map iframe{
+        height: 60vh;
     }
 
 }
