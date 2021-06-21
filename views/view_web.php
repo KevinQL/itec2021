@@ -26,9 +26,6 @@
                                 <h1 class="k-title-presentacion">TU FORMACIÓN <br> HACIA EL <br> EXITO</h1>
                                 <p class="lead k-parrafo-presentacion">
                                     Adquiere habilidades con los cursos, certificados y diplomados en línea que ofrece la institución el Tecnológico en convenio con instituciones acreditadas por la SUNEDU.
-                                    <?php
-                                        echo "RUTA NOMBRE " . $pg;
-                                    ?>
                                 </p>
                                 <button class="btn btn-primary btn-lg k-btn-unete">ÚNETE, ES GRATIS!</button>
                                 <div class="k-social my-2">

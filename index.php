@@ -1,22 +1,35 @@
 <?php 
-    // RUTAS
-    require_once("./core/configRoutes.php");
 
-    // PAGINAS PERMITIDAS DE ITEC
-    $array_pg = ["inicio", "cursos"];
+    //Iniciando la variable global SESSION
+    session_start();
+    
+    // Desactivar toda las notificaciónes del PHP
+    // error_reporting(0);
+    
+    // Configura la fecha de america lima 
+    date_default_timezone_set("America/Lima");
+    setlocale(LC_ALL,"es_ES");
 
-    if(!empty($_GET["pg"])){
-        $pg = !isset($_GET["pg"]) || empty($_GET["pg"])? "inicio" : trim($_GET["pg"]);
-        if(!in_array($pg, $array_pg)){
-            $pg="inicio";
-        }
+    // clases con los metodos necesarios 
+    require_once("./core/configRoutes.php"); // RUTAS 
+    require_once("./controllers/adminController.php");
+    // require_once("controllers/{ejemplo}Controller.php");
+    // require_once("controllers/webItecController.php");
+    // require_once("controllers/virtualController.php");
+    
+    $obj_admin = new adminController();
 
-    }else{
-        $pg = "inicio";
-    }
-
-
-    include_once("./views/view_{$pg}.php");
-
+    /**
+     * capturando el estado de lavariable SESSION
+     */
+    $session = $obj_admin->verificarSessionController();
+    
+    /**
+     * metodo de la clase adminController
+     * administra las paginas que se mostrarán para los usuarios en funcion de la url
+     */
+    $paginaResult = $obj_admin->administrarPaginasController($session);
+    
+    include_once("./views/" . $paginaResult);     
 
 ?>
