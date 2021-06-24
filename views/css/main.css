@@ -21,6 +21,19 @@
     color: var(--color-m-w) !important;
 }
 
+.k-logo #logo_img {
+    position: absolute;
+    padding: 0px 0px 17px 0px;
+    bottom: 0px;
+    width: auto;
+    height: 80%;
+
+    /* -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -o-transition: all .7s; */
+    transition: all .7s;
+}
+
 /* btn para el AULA VIRTUAL */
 .k-btn-classroom{
     background-color: var(--color-calido-1);
@@ -39,6 +52,7 @@
     padding-bottom: 20px;
     position: sticky;
     top: 0px;
+    z-index: 99999!important;
 }
 
 /* Estilos para las opciones de la NAVEGACIÓN */
@@ -56,7 +70,18 @@
     color: var(--color-m-w) !important;
 }
 
+/* Sub menu nav */
+.k-submenu{
+    background-color: var(--color-calido-2);
+    position: absolute;
+    width: 98.7vw !important;    
+    z-index: 99999!important;
+    transition: all linear .4s;
 
+    /* transform: translateX(-45vw); */
+    /* left: -270% !important; */
+    /* left: 0px !important; */
+}
 
 /* Sección PRESENTACIÓN, Primera opción */
 .k-presentacion {
@@ -205,6 +230,12 @@
     }
     .k-footer_map iframe{
         height: 60vh;
+    }
+
+    /* LOGO ITEC */
+    .k-logo #logo_img {
+        position: static;
+        width: 100px;
     }
 
 }

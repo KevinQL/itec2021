@@ -143,9 +143,46 @@
         <!-- seccion de slider EJMPLO -->
         <section class="k-slider">
 
-            <div class="container k-text">
+            <!-- <div class="container k-text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quos officiis consequatur obcaecati unde, assumenda deserunt iusto voluptates delectus ipsa.
-            </div>
+            </div> -->
+
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class=" k-text">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, omnis eius impedit aliquid voluptatibus dolorum voluptas delectus velit cumque quasi error earum harum eveniet iure.</p>
+            <h4 class="pt-2">Autor. Lorem, ipsum dolor.</h4>
+            <p>Andahuaylas - abril 2021</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class=" k-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempora similique quam totam hic eaque iste eos dolor illo a.</p>
+            <h4 class="pt-2">Autor. Lorem, ipsum dolor.</h4>
+            <p>Andahuaylas - marzo 2019</p>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class=" k-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quos officiis consequatur obcaecati unde, assumenda deserunt iusto voluptates delectus ipsa.</p>
+            <h4 class="pt-2">Autor. Lorem, ipsum dolor.</h4>
+            <p>Andahuaylas - septiembre 2020</p>
+        </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
 
         </section>
 
