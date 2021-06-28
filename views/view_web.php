@@ -40,22 +40,22 @@
                                 <div class="k-social my-2">
                                     <span>
                                         <a href="#">
-                                            <img src="./views/assets/facebook.png" width="30px" alt="">
+                                            <img src="./views/assets/icons/social/facebook.png" width="30px" alt="">
                                         </a>
                                     </span>
                                     <span>
                                         <a href="#">
-                                            <img src="./views/assets/instagram.png" width="30px" alt="">
+                                            <img src="./views/assets/icons/social/instagram.png" width="30px" alt="">
                                         </a>
                                     </span>
                                     <span>
                                         <a href="#">
-                                            <img src="./views/assets/youtube.png" width="30px" alt="">
+                                            <img src="./views/assets/icons/social/youtube.png" width="30px" alt="">
                                         </a>
                                     </span>
                                     <span>
                                         <a href="#">
-                                            <img src="./views/assets/gorjeo.png" width="30px" alt="">
+                                            <img src="./views/assets/icons/social/gorjeo.png" width="30px" alt="">
                                         </a>
                                     </span>
                                 </div>
@@ -65,7 +65,7 @@
                     <div class="col-md-6">
                         <div class="k-grid k-content-right k-prueba">
                             <!-- <h1>imagen!!!</h1> -->
-                            <img src="./views/assets/presentacion.png" alt="" width="100%">
+                            <img src="./views/assets/itec/presentacion.png" alt="" width="100%">
                         </div>
                     </div>
                 </div>
@@ -82,17 +82,17 @@
 
                 <div class="row py-4">
                     <div class="col-md-4 mt-2">
-                        <img src="./views/assets/tutor.png" width="60px" alt="">
+                        <img src="./views/assets/icons/tutor.png" width="60px" alt="">
                         <h3>De la mano del profesor</h3>
                         <p>Aprende técnicas y métodos de gran valor explicados por los grandes expertos del sector creativo.</p>
                     </div>
                     <div class="col-md-4 mt-2">
-                        <img src="./views/assets/experto.png" width="60px" alt="">
+                        <img src="./views/assets/icons/experto.png" width="60px" alt="">
                         <h3>Profesores expertos</h3>
                         <p>Cada profesor imparte solo lo que mejor sabe hacer, asegurando transmitir la pasión y la excelencia en cada lección.</p>
                     </div>
                     <div class="col-md-4 mt-2">
-                        <img src="./views/assets/www.png" width="60px" alt="">
+                        <img src="./views/assets/icons/www.png" width="60px" alt="">
                         <h3>Comparte conocimiento</h3>
                         <p>Expón tus dudas, pide feedbac, aporta soluciones. Comparte el aprendizaje con el resto de los alumnos de la comunidad.</p>
                     </div>
@@ -107,22 +107,22 @@
                 <h2 class="mb-5 text-center k-titulo-pc1">Alcanza tus metas con ITEC el Tecnológico</h2>
                 <div class="row text-center">
                     <div class="col-md-3">
-                        <img src="./views/assets/leer.png" alt="" width="70px">
+                        <img src="./views/assets/icons/leer.png" alt="" width="70px">
                         <h4 class="k-titulo-c1 mt-4">Aprende las <br> habilidades más <br> recientes</h4>
                         <p class="lead">Como ofimática, diseño gráfico, gestión publica, ingles, TIC y muchos más. </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="./views/assets/cientifico-de-datos.png" alt="" width="70px">
+                        <img src="./views/assets/icons/cientifico-de-datos.png" alt="" width="70px">
                         <h4 class="k-titulo-c1 mt-4">Prepárate <br> para una carrera <br> profesional</h4>
                         <p class="lead">En campos de mucha demanda, como TI, Administración publica e Ingles.</p>
                     </div>
                     <div class="col-md-3">
-                        <img src="./views/assets/ganador.png" alt="" width="70px">
+                        <img src="./views/assets/icons/ganador.png" alt="" width="70px">
                         <h4 class="k-titulo-c1 mt-4">Obtén un <br> diplomado</h4>
                         <p class="lead">De una de las mejores instituciones en convenio con instituciones y universidades acreditas.</p>
                     </div>
                     <div class="col-md-3">
-                        <img src="./views/assets/clasificacion.png" alt="" width="70px">
+                        <img src="./views/assets/icons/clasificacion.png" alt="" width="70px">
                         <h4 class="k-titulo-c1 mt-4">Mejora tu <br> organización</h4>
                         <p class="lead">Con programas de desarrollo y capacitación con mucha demanda.</p>
                     </div>
@@ -136,7 +136,7 @@
                 <div class="row">
                     <div class="col-md-7">
                         <!-- <h3>IMAGEN!!!</h3> -->
-                        <video src="promocion.mp4" width="100%" style="border-radius:5px" autoplay muted loop preload poster="">
+                        <video src="./views/assets/itec/video/promocion.mp4" width="100%" style="border-radius:5px" autoplay muted loop preload poster="">
                             <!-- <source src="promocion.mp4" type="video/mp4"> -->
                             <!-- <img src="videoimg.png" alt="Video no soportado"> -->
                         </video>
