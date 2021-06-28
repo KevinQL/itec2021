@@ -27,7 +27,16 @@
                                 <p class="lead k-parrafo-presentacion">
                                     Adquiere habilidades con los cursos, certificados y diplomados en línea que ofrece la institución el Tecnológico en convenio con instituciones acreditadas por la SUNEDU.
                                 </p>
-                                <button class="btn btn-primary btn-lg k-btn-unete">ÚNETE, ES GRATIS!</button>
+
+                                <button class="btn btn-primary btn-lg k-btn-unete" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                                    ÚNETE, ES GRATIS!
+                                </button>
+
+                                <?php
+                                    // Modal Formulario información usuario
+                                    include_once("./views/components/modal-form.html")
+                                ?>
+
                                 <div class="k-social my-2">
                                     <span>
                                         <a href="#">
