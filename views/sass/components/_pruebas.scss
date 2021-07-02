@@ -1,0 +1,47 @@
+@mixin button($breakpoint) {
+    display: inline-block;
+    text-decoration: none;
+    padding: .5rem 1em;
+
+    &:hover {
+        background-color: seagreen;
+    }
+
+    @media screen and (min-width: $breakpoint) {
+        background-color: sandybrown;
+    }
+}
+
+
+.button {
+    @include button(640px);
+}
+
+.suscription {
+    @include button(1000px);
+}
+
+
+// iteraciones y mapas XD 
+$bp: (
+    m:640px,
+    l:1024px
+);
+
+@media screen and (min-width:map-get($bp, m)) {
+
+    @for $i from 1 through 4 {
+        .cols-m-#{$i* 5}{
+            width: $i * 5%;
+        }
+    }
+}
+
+@media screen and (min-width:map-get($bp, l)) {
+
+    @for $i from 1 to 4 {
+        .cols-l-#{$i* 5}{
+            width: $i * 5%;
+        }
+    }
+}

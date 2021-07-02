@@ -1,0 +1,72 @@
+.wsp {
+  position: fixed;
+  display: block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: blanchedalmond;
+  right: 14px;
+  bottom: 100px;
+}
+
+.fb {
+  position: fixed;
+  display: block;
+  background-color: black;
+  border: 1px solid transparent;
+  color: blanchedalmond;
+  right: 10px;
+  bottom: 50px;
+}
+
+.loader-k {
+  position: fixed;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100000;
+}
+.loader-k .content-k {
+  text-align: center;
+  color: white;
+}
+.loader-k .content-k .loader {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 14px solid;
+  color: rgba(255, 255, 255, 0.076);
+  border-top-color: red;
+  border-top-style: groove;
+  border-radius: 100%;
+  animation: girar 2s linear infinite;
+}
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-ready {
+  animation: present 1s linear;
+  animation-fill-mode: forwards;
+  animation-direction: alternate-reverse;
+}
+@keyframes present {
+  to {
+    clip-path: circle(150% at 100% 100%);
+    opacity: 1;
+  }
+  from {
+    clip-path: circle(0% at 100% 100%);
+    opacity: 0;
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

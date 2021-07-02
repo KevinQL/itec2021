@@ -9,6 +9,15 @@
 
 
 
+/**
+ * ANIMACIÓN PARA CARGA DE PÁGINA ITEC
+ */
+window.addEventListener("load", function(){
+    // console.log("listoo!!")
+    document.querySelector(".loader-k").classList.add("loader-ready");
+})
+
+
 
 /**
  * CONFIGURACION LOGO, ANIMACIONES
