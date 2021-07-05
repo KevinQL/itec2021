@@ -4,18 +4,19 @@
   background-color: transparent;
   border: 1px solid transparent;
   color: blanchedalmond;
-  right: 14px;
+  right: 24px;
   bottom: 100px;
 }
 
 .fb {
   position: fixed;
   display: block;
-  background-color: black;
+  background-color: red;
   border: 1px solid transparent;
   color: blanchedalmond;
   right: 10px;
   bottom: 50px;
+  z-index: 10010;
 }
 
 .loader-k {

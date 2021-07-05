@@ -8,15 +8,15 @@
 
 .wsp {
     @include social();
-    right: 14px;
+    right: 24px;
     bottom: 100px;
     // width: 100px;
     // height: 100px;
-
 }
 
 .fb {
-    @include social(black);
+    @include social(red);
     right: 10px;
     bottom: 50px;
+    z-index: 10010;
 }

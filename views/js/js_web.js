@@ -25,6 +25,7 @@ window.addEventListener("load", function(){
  * */ 
 
 // Esto solo debe ejecutarse en computadoras de mesa y portatiles (Ojo)
+// Logo ITEC en el navegador
 window.onscroll = function () {
     var y = window.scrollY;
     let logo_img = document.querySelector("#logo_img");

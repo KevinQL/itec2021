@@ -99,6 +99,26 @@
     background-color: beige;
 }
 
+.k-submenu-normal{
+    /* background-color: var(--color-centro); */
+    background-color: transparent;
+    border-top: 1px solid var(--color-bg-video);
+    border-bottom: 3px solid var(--color-bg-video);
+    transition: all linear .4s;
+}
+.k-submenu-normal li{
+    background-color: burlywood!important;
+    margin-top: 2px;
+}
+.k-submenu-normal li a{
+    background-color: var(--color-centro);
+    padding: 10px;
+    color: white;
+}
+.dropdown-menu{
+    padding: 0px 0px !important;
+}
+
 /* Sub menu nav */
 .k-submenu{
     background-color: var(--color-centro);
@@ -107,12 +127,46 @@
     z-index: 10000!important;
     transition: all linear .4s;
 
-    border-bottom: 3px solid var(--color-bg-video);
     border-top: 1px solid var(--color-bg-video);
+    border-bottom: 3px solid var(--color-bg-video);
 
     /* transform: translateX(-45vw); */
     /* left: -270% !important; */
     /* left: 0px !important; */
+}
+.k-submenu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.k-submenu ul li{
+    margin: 0px;
+    padding: 0px;
+}
+.k-submenu ul li a {
+    text-decoration: none;
+    font-size: .9rem;
+    font-family: 'Pangolin', cursive;
+    color: rgba(255, 255, 255, 0.849);
+}
+.k-submenu ul li a:hover {
+    animation: link-subm 2s linear infinite;
+    font-weight: bold;
+}
+
+@keyframes link-subm {
+    0% {
+        color: var(--color-amarisho);   
+    }
+    20% {
+        color:transparent;
+    }
+    30%{
+        color: white;
+    }
+    100% {
+        color: var(--color-bg-video);
+    }
 }
 
 /* Sección PRESENTACIÓN, Primera opción */
