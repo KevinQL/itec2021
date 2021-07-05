@@ -54,13 +54,13 @@
 
 /* btn para el AULA VIRTUAL */
 .k-btn-classroom{
-    background-color: var(--color-frio-2);
+    background-color: var(--color-frio-1);
     /* color:var(--color-centro) !important; */
 
     border-radius: 5px;
 }
 .k-btn-classroom:hover{
-    background-color: var(--color-frio-1);
+    background-color: var(--color-frio-2);
 }
 
 /* Estilos navegación */
