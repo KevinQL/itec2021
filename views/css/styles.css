@@ -4,7 +4,7 @@
   background-color: transparent;
   border: 1px solid transparent;
   color: blanchedalmond;
-  right: 24px;
+  right: 22px;
   bottom: 100px;
 }
 
@@ -67,6 +67,111 @@
     clip-path: circle(0% at 100% 100%);
     opacity: 0;
     display: none;
+  }
+}
+
+.k-acercaDe {
+  background-color: #0a080510;
+  min-height: 80vh;
+  padding-top: 30px;
+}
+.k-acercaDe .k-titulo {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.k-acercaDe .k-titulo .k-titulo_tec {
+  color: cadetblue;
+  font-size: 1.7rem;
+}
+.k-acercaDe .row {
+  position: relative;
+  background-color: rgba(95, 158, 160, 0.193);
+  min-height: 70vh;
+  width: auto;
+  overflow: hidden;
+  border: none;
+  border-radius: 14px 14px 0px 0px;
+}
+.k-acercaDe .k-acerca_info {
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100%;
+}
+
+.k-cifras .k-cifras_title {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.k-cifras .k-cifras_title .title_itec {
+  color: cadetblue;
+  font-size: 1.7rem;
+}
+.k-cifras .k-cifras_item {
+  background-color: #0377FF;
+  height: 40vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border: none;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+.k-porqueEstudiar .k-pe_title {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.k-porqueEstudiar .k-pe_title .title_itec {
+  color: cadetblue;
+  font-size: 1.7rem;
+}
+.k-porqueEstudiar .k-p_lista {
+  background-color: #1C86FF;
+  padding-left: 7%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.k-porqueEstudiar .k-p_lista ul li {
+  margin-bottom: 5px;
+  padding-left: 8px;
+  list-style: none;
+  background-color: white;
+}
+
+.k-metodologia .k-m_title {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.k-metodologia .k-m_title .title_itec {
+  color: cadetblue;
+  font-size: 1.7rem;
+}
+.k-metodologia .row div .k-card {
+  border: 1.5px solid rgba(0, 0, 0, 0.371);
+  background-color: transparent;
+  margin: 2px;
+  padding: 5px 10px;
+}
+.k-metodologia .row div .k-card .k-card_title {
+  font-size: 1.2rem;
+  background-color: turquoise;
+  height: 50px;
+  overflow: hidden;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.k-metodologia .row div .k-card p {
+  height: 180px;
+  overflow-y: hidden;
+}
+@media (max-width: 600px) {
+  .k-metodologia .row div .k-card p {
+    height: auto;
+    background-color: seagreen;
   }
 }
 

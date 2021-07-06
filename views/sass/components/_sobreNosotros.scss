@@ -1,0 +1,126 @@
+@mixin title {
+    letter-spacing: 2px;
+    font-weight: bold;
+    .title_itec{
+        color: cadetblue;
+        font-size: 1.7rem;
+    }
+}
+
+
+// Seccion acerca de 
+.k-acercaDe{
+    background-color: #0a080510;
+    min-height: 80vh;
+    padding-top: 30px;
+    // position: relative;
+
+    .k-titulo{
+        letter-spacing: 2px;
+        font-weight: bold;
+        .k-titulo_tec{
+            color: cadetblue;
+            font-size: 1.7rem;
+        }
+    }
+    .row{
+        position: relative;
+        background-color: rgba(95, 158, 160, 0.193);
+        min-height: 70vh;
+        width: auto;
+        overflow:hidden;
+        border: none;
+        border-radius: 14px 14px 0px 0px;
+    }
+
+    .k-acerca_info{
+        background-color: white;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        min-height: 100%;
+    }
+
+}
+
+
+//seccion CIFRAS
+.k-cifras{
+    .k-cifras_title{
+        @include title();
+    }
+    .k-cifras_item{
+        background-color: $color-centro;
+        height: 40vh;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        // border: 1px solid khaki;
+        border: none;
+        clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
+        color: $color-m-w;
+        font-weight: bold;
+        // font-size: 1.3rem;
+    }
+}
+
+
+// sección PORQUE ESTUDIAR EN EL ITEC
+.k-porqueEstudiar{
+    .k-pe_title{
+        @include title();
+    }
+    .k-p_lista{        
+        background-color: $color-frio-2;
+        padding-left: 7%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        ul{
+            // margin: 0px;
+            // padding: 0px;
+            li{
+                margin-bottom: 5px;
+                padding-left: 8px;
+                list-style: none;
+                background-color: white;
+            }
+        }
+    }
+}
+
+
+// sección metodología
+.k-metodologia{
+    .k-m_title{
+        @include title();
+    }
+
+    .row  div .k-card{
+        border: 1.5px solid rgba(0, 0, 0, 0.371);
+        background-color: transparent;
+        margin: 2px;
+        padding: 5px 10px;
+        .k-card_title{
+            font-size: 1.2rem;
+            background-color: turquoise;
+            height: 50px;
+            overflow:hidden;
+
+            display: grid;
+            justify-content: center;
+            align-content: center;
+        }
+
+        p{
+            height: 180px;
+            overflow-y: hidden;
+            @media (max-width: 600px){
+                height: auto;
+                background-color: seagreen;
+                // p{
+                // }
+            }
+        }
+    }
+}
