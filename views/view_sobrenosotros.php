@@ -120,8 +120,8 @@
                         <div  class="k-card">
                             <img src="#" alt="itec">
                             <h5 class="k-card_title">CLASE EN TIEMPO REAL</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus mollitia voluptatum ipsam assumenda! Dolorem recusandae fuga natus dignissimos quo corrupti!
+                            <p class="lead">
+                                Clases en vivo con el instructor donde podrás consular en línea toda duda relacionada a la clase.
                             </p>
                         </div>
                     </div>
@@ -129,8 +129,8 @@
                         <div class="k-card">
                             <img src="#" alt="itec">
                             <h5 class="k-card_title">MATERIALES</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus mollitia voluptatum ipsam assumenda! Dolorem recusandae fuga natus dignissimos quo corrupti!
+                            <p class="lead">
+                                Material de lectura detallado y didáctico relacionado a cada sesión clase.
                             </p>
                         </div>
                     </div>
@@ -138,8 +138,8 @@
                         <div class="k-card">
                             <img src="#" alt="itec">
                             <h5 class="k-card_title">VIDEO DE CLASE</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus mollitia voluptatum ipsam assumenda! Dolorem recusandae fuga natus dignissimos quo corrupti!
+                            <p class="lead">
+                                Clases grabadas de cada sesión desarrollada
                             </p>
                         </div>
                     </div>
@@ -147,8 +147,8 @@
                         <div class="k-card">
                             <img src="#" alt="itec">
                             <h5 class="k-card_title">MINIVIDEOS DE CLASE</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus mollitia voluptatum ipsam assumenda! Dolorem recusandae fuga natus dignissimos quo corrupti!
+                            <p class="lead">
+                                Durante la semana recibirá en el grupo de WhatsApp minivideos de las sesiones desarrolladas
                             </p>
                         </div>
                     </div>
@@ -159,8 +159,8 @@
                         <div class="k-card">
                             <img src="#" alt="itec">
                             <h5 class="k-card_title">FOROS</h5>   
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus mollitia voluptatum ipsam assumenda! Dolorem recusandae fuga natus dignissimos quo corrupti!
+                            <p class="lead">
+                                Preguntas planteadas por el instructor donde podrás aportar tus conocimientos con argumentos sólidos.
                             </p>
                         </div>
                     </div>
@@ -168,8 +168,8 @@
                         <div class="k-card">
                             <img src="#" alt="itec">
                             <h5 class="k-card_title">ATENCIÓN PERSONALIZADA</h5>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus mollitia voluptatum ipsam assumenda! Dolorem recusandae fuga natus dignissimos quo corrupti!
+                            <p class="lead">
+                                Después de cada sesión de clase podrá contactarse con el coordinador del curso si tuviera alguna duda.
                             </p>
                         </div>
                     </div>
@@ -183,95 +183,108 @@
 
 
         <!--  SECCIÓN AUTORIDADES ACADÉMICAS, INSTRUCTORES Y  COORDINADORES -->
-        <section class="container">
-            <h4>
-                "EL TECNOLÓGICO"
-            </h4>
-            <h5>
-                AUTORIDADES ACADÉMICAS
-            </h5>
-
-            <div>
-                <div>
-                    <img src="#" alt="img">
-                    Ing. Yuri Ccahuana Huamaní <br>
-                    GERENTE GENERAL
-                </div>
-                <div>
-                    <img src="#" alt="img">
-                    Lic. Raquel Mallcco Huaraca <br>
-                    DIRECTORA ACADÉMICA / ADMINISTRADORA
-                </div>
-            </div>
-
-            <!-- Instructores académicos -->
-            <div>
-                <h4>INSTRUCTORES ACADÉMICOS</h4>
-                <div class="row">
-                    <div class="col-md-3">
-                        C.P.C. Eric Yucra Sánchez <br>
-                        INSTRUCTOR 
-                    </div>
-                    <div class="col-md-3">
+        <section class="k-academicos mt-5 pb-5">
+            <div class="container">
+                <h2 class="text-center pt-5 pb-4 k-title_s ">
+                    <span>"EL TECNOLÓGICO"</span> <br>
+                    AUTORIDADES ACADÉMICAS
+                </h2>
+                <!-- Autoridades -->
+                <div class="k-autoridades pt-3 pb-4">
+                    <div>
+                        <img src="#" alt="img"> <br>
                         Ing. Yuri Ccahuana Huamaní <br>
-                        INSTRUCTOR 
+                        <span>GERENTE GENERAL</span>
                     </div>
-                    <div class="col-md-3">
+                    <div>
+                        <img src="#" alt="img"> <br>
                         Lic. Raquel Mallcco Huaraca <br>
-                        INSTRUCTOR 
-                    </div>
-                    <div class="col-md-3">
-                        Lic. Cesar Augusto Buendía Baldeon <br>
-                        INSTRUCTOR 
-                    </div>
-
-                    <div class="col-md-3">
-                        Ing. Yordanch Vargas Velasque <br>
-                        INSTRUCTOR 
-                    </div>
-                    <div class="col-md-3">
-                        C.P.C. Elinor Silvia Valle Sheron <br>
-                        INSTRUCTOR 
-                    </div>
-                    <div class="col-md-3">
-                        Ing. Rafael Torbisco <br>
-                        INSTRUCTOR 
-
-                    </div>
-                    <div class="col-md-3">
-                        Lic. Rony Ccopa Flores <br>
-                        INSTRUCTOR 
-                    </div>
-
-                    <div class="col-md-3">
-                        Ing. Nilo Aparco Arevalo <br>
-                        INSTRUCTOR 
+                        <span>DIRECTORA ACADÉMICA / ADMINISTRADORA</span>
                     </div>
                 </div>
-            </div>
+    
+                <!-- Instructores académicos -->
+                <div class="k-instructores pt-3">
+                    <h2 class="text-center pb-4 k-title_s">INSTRUCTORES ACADÉMICOS</h2>
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <img src="./views/assets/icons/instructor.png" alt="" width="40px"> <br>
+                            C.P.C. Eric Yucra Sánchez <br>
+                            <span>INSTRUCTOR</span>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./views/assets/icons/instructor.png" alt="" width="40px"> <br>
+                            Ing. Yuri Ccahuana Huamaní <br>
+                            <span>INSTRUCTOR</span>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./views/assets/icons/instructor.png" alt="" width="40px"> <br>
+                            Lic. Raquel Mallcco Huaraca <br>
+                            <span>INSTRUCTOR </span>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./views/assets/icons/instructor.png" alt="" width="40px"> <br>
+                            Lic. Cesar Augusto Buendía Baldeon <br>
+                            <span>INSTRUCTOR </span>
+                        </div>
+    
+                        <div class="col-md-3">
+                            <img src="./views/assets/icons/instructor.png" alt="" width="40px"> <br>
+                            Ing. Yordanch Vargas Velasque <br>
+                            <span>INSTRUCTOR </span>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./views/assets/icons/instructor.png" alt="" width="40px"> <br>
+                            C.P.C. Elinor Silvia Valle Sheron <br>
+                            <span>INSTRUCTOR </span>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./views/assets/icons/instructor.png" alt="" width="40px"> <br>
+                            Ing. Rafael Torbisco <br>
+                            <span>INSTRUCTOR </span>
+    
+                        </div>
+                        <div class="col-md-3">
+                            <img src="./views/assets/icons/instructor.png" alt="" width="40px"> <br>
+                            Lic. Rony Ccopa Flores <br>
+                            <span>INSTRUCTOR </span>
+                        </div>
+    
+                        <div class="col-md-12 text-center">
+                            <img src="./views/assets/icons/instructor.png" alt="" width="40px"> <br>
+                            Ing. Nilo Aparco Arevalo <br>
+                            <span>INSTRUCTOR </span>
+                        </div>
+                    </div>
 
-            
+
+                </div>
+
+                <!-- Coordinadores academicos -->
+                <div class="k-coordinadores pt-3">
+                    <h2 class="text-center k-title_s">COORDINADORES ACADÉMICOS</h2>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <img src="./views/assets/icons/coordinador.png" alt="" width="40px"> <br>    
+                            Robin Alcides Collahua Ccahuana <br>
+                            <span>COORDINADOR</span> 
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./views/assets/icons/coordinador.png" alt="" width="40px"> <br>
+                            Keny Mallma Galindo <br>
+                            <span>COORDINADORA</span>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./views/assets/icons/coordinador.png" alt="" width="40px"> <br>
+                            Ingrid Estéfany Ccahuana Huamaní <br>
+                            <span>COORDINADORA</span>
+                        </div>
+                    </div>
+                </di pt-3v>
+
+            </div>
         </section>
         
-        <!-- Coordinadores academicos -->
-        <section class="container">
-            <h4>COORDINADORES ACADÉMICOS</h4>
-            <div class="row">
-                <div class="col-md-4">
-                    Robin Alcides Collahua Ccahuana <br>
-                    COORDINADOR 
-                </div>
-                <div class="col-md-4">
-                    Keny Mallma Galindo <br>
-                    COORDINADORA
-                </div>
-                <div class="col-md-4">
-                    Ingrid Estéfany Ccahuana Huamaní <br>
-                    COORDINADORA
-
-                </div>
-            </div>
-        </section>
 
 
         <!-- FOOTER DE LA PÁGINA DE ITEC -->
@@ -285,3 +298,10 @@
         ?>
     </body>
 </html>
+
+
+<!-- 
+<div>Iconos diseñados por <a href="https://www.flaticon.es/autores/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
+
+
+ -->

@@ -1,7 +1,7 @@
 @mixin title {
     letter-spacing: 2px;
     font-weight: bold;
-    .title_itec{
+    .title_itec, span{
         color: cadetblue;
         font-size: 1.7rem;
     }
@@ -50,7 +50,13 @@
         @include title();
     }
     .k-cifras_item{
-        background-color: $color-centro;
+        // background-color: $color-centro;
+        background: #3494E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+
+
         height: 40vh;
         display: grid;
         justify-content: center;
@@ -117,10 +123,72 @@
             overflow-y: hidden;
             @media (max-width: 600px){
                 height: auto;
-                background-color: seagreen;
+                // background-color: seagreen;
                 // p{
                 // }
             }
         }
     }
+}
+
+
+//SECCIÓN Autoridades Académicas
+
+.k-academicos{
+
+    background-color: #f4f3e9;
+
+    .k-title_s{
+        @include title();
+    }
+    // Autoridades
+    .k-autoridades{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        text-align: center;
+        
+        div{
+            // card person
+            margin: 3px;
+            // background-color: violet;
+            span{
+                // name person
+                font-weight: bold;
+            }
+        }
+    }
+
+    // Instructores
+    .k-instructores{
+        .k-title_s{
+            @include title();
+        }
+
+        .row div {
+            padding: 15px 5px;
+            font-size: 1.3rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+
+    // Coordinadores
+    .k-coordinadores {
+        .k-title_s{
+            @include title();
+        }
+
+        .row div{
+            padding: 15px 5px;
+            font-size: 1.3rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+
 }

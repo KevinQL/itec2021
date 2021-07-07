@@ -104,12 +104,17 @@
   letter-spacing: 2px;
   font-weight: bold;
 }
-.k-cifras .k-cifras_title .title_itec {
+.k-cifras .k-cifras_title .title_itec, .k-cifras .k-cifras_title span {
   color: cadetblue;
   font-size: 1.7rem;
 }
 .k-cifras .k-cifras_item {
-  background-color: #0377FF;
+  background: #3494E6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EC6EAD, #3494E6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 40vh;
   display: grid;
   justify-content: center;
@@ -124,7 +129,7 @@
   letter-spacing: 2px;
   font-weight: bold;
 }
-.k-porqueEstudiar .k-pe_title .title_itec {
+.k-porqueEstudiar .k-pe_title .title_itec, .k-porqueEstudiar .k-pe_title span {
   color: cadetblue;
   font-size: 1.7rem;
 }
@@ -145,7 +150,7 @@
   letter-spacing: 2px;
   font-weight: bold;
 }
-.k-metodologia .k-m_title .title_itec {
+.k-metodologia .k-m_title .title_itec, .k-metodologia .k-m_title span {
   color: cadetblue;
   font-size: 1.7rem;
 }
@@ -171,8 +176,63 @@
 @media (max-width: 600px) {
   .k-metodologia .row div .k-card p {
     height: auto;
-    background-color: seagreen;
   }
+}
+
+.k-academicos {
+  background-color: #f4f3e9;
+}
+.k-academicos .k-title_s {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.k-academicos .k-title_s .title_itec, .k-academicos .k-title_s span {
+  color: cadetblue;
+  font-size: 1.7rem;
+}
+.k-academicos .k-autoridades {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+.k-academicos .k-autoridades div {
+  margin: 3px;
+}
+.k-academicos .k-autoridades div span {
+  font-weight: bold;
+}
+.k-academicos .k-instructores .k-title_s {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.k-academicos .k-instructores .k-title_s .title_itec, .k-academicos .k-instructores .k-title_s span {
+  color: cadetblue;
+  font-size: 1.7rem;
+}
+.k-academicos .k-instructores .row div {
+  padding: 15px 5px;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.k-academicos .k-instructores .row div span {
+  font-weight: bold;
+}
+.k-academicos .k-coordinadores .k-title_s {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.k-academicos .k-coordinadores .k-title_s .title_itec, .k-academicos .k-coordinadores .k-title_s span {
+  color: cadetblue;
+  font-size: 1.7rem;
+}
+.k-academicos .k-coordinadores .row div {
+  padding: 15px 5px;
+  font-size: 1.3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.k-academicos .k-coordinadores .row div span {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */
