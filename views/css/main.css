@@ -65,7 +65,13 @@
 
 /* Estilos navegación */
 .k-nav {
-    background-color: var(--color-centro) !important;
+    /* background-color: var(--color-centro) !important; */
+    background: var(--color-centro) !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, var(--color-bg-video), var(--color-centro)) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, var(--color-bg-video), var(--color-centro)) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: none;
+
     padding-top: 30px;
     padding-bottom: 20px;
     position: sticky;
@@ -111,7 +117,13 @@
     margin-top: 2px;
 }
 .k-submenu-normal li a{
-    background-color: var(--color-centro);
+    /* background-color: var(--color-centro); */
+
+    background: var(--color-centro) !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, var(--color-calido-2), var(--color-centro)) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, var(--color-calido-2), var(--color-centro)) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
     padding: 10px;
     color: white;
 }
@@ -121,7 +133,14 @@
 
 /* Sub menu nav */
 .k-submenu{
-    background-color: var(--color-centro);
+    /* background-color: var(--color-centro); */
+
+    background: var(--color-centro) !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, var(--color-calido-2), var(--color-centro)) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, var(--color-calido-2), var(--color-centro)) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
     position: absolute;
     width: 98.7vw !important;    
     z-index: 10000!important;

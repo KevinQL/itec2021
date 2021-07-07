@@ -2,7 +2,8 @@
     letter-spacing: 2px;
     font-weight: bold;
     .title_itec, span{
-        color: cadetblue;
+        // color: cadetblue;
+        color: $color-centro;
         font-size: 1.7rem;
     }
 }
@@ -13,15 +14,9 @@
     background-color: #0a080510;
     min-height: 80vh;
     padding-top: 30px;
-    // position: relative;
 
     .k-titulo{
-        letter-spacing: 2px;
-        font-weight: bold;
-        .k-titulo_tec{
-            color: cadetblue;
-            font-size: 1.7rem;
-        }
+        @include title();
     }
     .row{
         position: relative;
@@ -52,8 +47,8 @@
     .k-cifras_item{
         // background-color: $color-centro;
         background: #3494E6;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #EC6EAD, $color-frio-2);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #EC6EAD, $color-frio-2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 
 
@@ -78,7 +73,8 @@
         @include title();
     }
     .k-p_lista{        
-        background-color: $color-frio-2;
+        // background-color: $color-frio-2; //cadetblue
+        background-color: $color-calido-2;
         padding-left: 7%;
         padding-top: 5px;
         padding-bottom: 5px;
@@ -109,7 +105,8 @@
         padding: 5px 10px;
         .k-card_title{
             font-size: 1.2rem;
-            background-color: turquoise;
+            background-color: $color-calido-2;
+            color: white;
             height: 50px;
             overflow:hidden;
 

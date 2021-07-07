@@ -79,8 +79,8 @@
   letter-spacing: 2px;
   font-weight: bold;
 }
-.k-acercaDe .k-titulo .k-titulo_tec {
-  color: cadetblue;
+.k-acercaDe .k-titulo .title_itec, .k-acercaDe .k-titulo span {
+  color: #0377FF;
   font-size: 1.7rem;
 }
 .k-acercaDe .row {
@@ -105,15 +105,15 @@
   font-weight: bold;
 }
 .k-cifras .k-cifras_title .title_itec, .k-cifras .k-cifras_title span {
-  color: cadetblue;
+  color: #0377FF;
   font-size: 1.7rem;
 }
 .k-cifras .k-cifras_item {
   background: #3494E6;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+  background: -webkit-linear-gradient(to right, #EC6EAD, #1C86FF);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EC6EAD, #3494E6);
+  background: linear-gradient(to right, #EC6EAD, #1C86FF);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 40vh;
   display: grid;
@@ -130,11 +130,11 @@
   font-weight: bold;
 }
 .k-porqueEstudiar .k-pe_title .title_itec, .k-porqueEstudiar .k-pe_title span {
-  color: cadetblue;
+  color: #0377FF;
   font-size: 1.7rem;
 }
 .k-porqueEstudiar .k-p_lista {
-  background-color: #1C86FF;
+  background-color: #013C80;
   padding-left: 7%;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -151,7 +151,7 @@
   font-weight: bold;
 }
 .k-metodologia .k-m_title .title_itec, .k-metodologia .k-m_title span {
-  color: cadetblue;
+  color: #0377FF;
   font-size: 1.7rem;
 }
 .k-metodologia .row div .k-card {
@@ -162,7 +162,8 @@
 }
 .k-metodologia .row div .k-card .k-card_title {
   font-size: 1.2rem;
-  background-color: turquoise;
+  background-color: #013C80;
+  color: white;
   height: 50px;
   overflow: hidden;
   display: grid;
@@ -187,7 +188,7 @@
   font-weight: bold;
 }
 .k-academicos .k-title_s .title_itec, .k-academicos .k-title_s span {
-  color: cadetblue;
+  color: #0377FF;
   font-size: 1.7rem;
 }
 .k-academicos .k-autoridades {
@@ -207,7 +208,7 @@
   font-weight: bold;
 }
 .k-academicos .k-instructores .k-title_s .title_itec, .k-academicos .k-instructores .k-title_s span {
-  color: cadetblue;
+  color: #0377FF;
   font-size: 1.7rem;
 }
 .k-academicos .k-instructores .row div {
@@ -223,7 +224,7 @@
   font-weight: bold;
 }
 .k-academicos .k-coordinadores .k-title_s .title_itec, .k-academicos .k-coordinadores .k-title_s span {
-  color: cadetblue;
+  color: #0377FF;
   font-size: 1.7rem;
 }
 .k-academicos .k-coordinadores .row div {
