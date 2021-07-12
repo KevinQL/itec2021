@@ -111,18 +111,23 @@
 .k-cifras .k-cifras_item {
   background: #3494E6;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #EC6EAD, #1C86FF);
+  background: -webkit-linear-gradient(to top, transparent, #8ECAE6);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #EC6EAD, #1C86FF);
+  background: linear-gradient(to top, transparent, #8ECAE6);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #023047c9;
   height: 40vh;
   display: grid;
   justify-content: center;
   align-content: center;
-  border: none;
   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-  color: blanchedalmond;
+  border: none;
+  border-radius: 20px;
   font-weight: bold;
+  font-size: 1.3rem;
+}
+.k-cifras .k-cifras_item .cifra-num {
+  font-size: 3rem;
 }
 
 .k-porqueEstudiar .k-pe_title {
@@ -234,6 +239,12 @@
 }
 .k-academicos .k-coordinadores .row div span {
   font-weight: bold;
+}
+
+.titulo-itec {
+  letter-spacing: 2px;
+  font-weight: bolder;
+  color: #0377FF;
 }
 
 /*# sourceMappingURL=styles.css.map */

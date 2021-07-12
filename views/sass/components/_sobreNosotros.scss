@@ -47,9 +47,9 @@
     .k-cifras_item{
         // background-color: $color-centro;
         background: #3494E6;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #EC6EAD, $color-frio-2);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #EC6EAD, $color-frio-2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
+        background: -webkit-linear-gradient(to top, transparent, $color-bg-video);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, transparent, $color-bg-video); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+        color: $color-nav-calido-complemento;
 
 
         height: 40vh;
@@ -57,12 +57,16 @@
         justify-content: center;
         align-content: center;
         // border: 1px solid khaki;
-        border: none;
         clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-
-        color: $color-m-w;
+        border: none;
+        border-radius: 20px;
+        
         font-weight: bold;
-        // font-size: 1.3rem;
+        font-size: 1.3rem;
+
+        .cifra-num{
+            font-size: 3rem;
+        }
     }
 }
 

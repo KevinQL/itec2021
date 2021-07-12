@@ -266,7 +266,10 @@
 
 /* SECCION CINTA */
 .k-cinta {
-    background-color: var(--color-amarisho);
+    background: var(--color-amarisho) !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, var(--color-m-w), var(--color-bg-video)) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, var(--color-m-w), var(--color-bg-video)) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* SECCIÓN CUERPO 1*/
@@ -304,6 +307,14 @@
     letter-spacing: 2px;
     font-size: 1.2rem;
     font-family: monospace;
+}
+
+.k-slider-coment{
+    /* background-color: var(--color-bg-video); */
+    background: var(--color-bg-video) !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, var(--color-bg-video), transparent) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, var(--color-bg-video), transparent) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 /* ++++++++++++++++++++++++++ */
 

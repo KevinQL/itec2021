@@ -6,7 +6,7 @@
             include_once("./views/secctions/header_links.html");
         ?>
 
-        <title>CERTIFICADO DIGITAL</title>
+        <title>Nosotros</title>
     </head>
     <body>
         
@@ -16,7 +16,7 @@
         ?>
 
         <!-- SECCIÓN acerca de -->
-        <section class="k-acercaDe">
+        <section class="k-acercaDe" id="quienes_somos">
             <div class="container">
                 <div class="h2 k-titulo">
                     ACERCA DE <span class="k-titulo_tec">"EL TECNOLÓGICO"</span>
@@ -51,27 +51,29 @@
                 <h2 class="text-center pt-3 pb-5 k-cifras_title"><span class="title_itec">"EL TECNOLÓGICO"</span> EN CIFRAS</h2>
                 <div class="row text-center">
                     <div class="col-md-4 lead k-cifras_item">
-                        + 65.000 <br>
+                        <span class="cifra-num">+65.000</span> 
                         Estudiantes
                     </div>
                     <div class="col-md-4 lead k-cifras_item">
-                        + 60.000 <br>
+                        <span class="cifra-num">+60.000</span> 
                         Estudiantes certificados
                     </div>
                     <div class="col-md-4 lead k-cifras_item">
-                        + 20 <br>
+                        <span class="cifra-num">+20</span> 
                         Cursos gratuitos cada mes
                     </div>
                     <div class="col-md-12 lead k-cifras_item">
-                        + 90% <br>
+                        <span class="cifra-num">+90%</span> 
                         de egresados satisfechos con la educación recibida.
                     </div>
                 </div>
             </div>
         </section>
 
+
+
         <!-- POR QUE ESTUDIAR EN EL TECNOLOGICO -->
-        <section class="k-porqueEstudiar">
+        <section class="k-porqueEstudiar" id="porque">
             <div class="container py-5">
                 <h2 class="k-pe_title">
                     ¿POR QUÉ ESTUDIAR EN <span class="title_itec">“EL TECNOLÓGICO”</span>?
@@ -183,7 +185,7 @@
 
 
         <!--  SECCIÓN AUTORIDADES ACADÉMICAS, INSTRUCTORES Y  COORDINADORES -->
-        <section class="k-academicos mt-5 pb-5">
+        <section class="k-academicos mt-5 pb-5" id="autoridades">
             <div class="container">
                 <h2 class="text-center pt-5 pb-4 k-title_s ">
                     <span>"EL TECNOLÓGICO"</span> <br>

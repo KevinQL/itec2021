@@ -28,7 +28,7 @@
                     <div class="col-md-6">
                         <div class="k-grid k-content-left ">
                             <div>
-                                <h1 class="k-title-presentacion">TU FORMACIÓN <br> HACIA EL <br> EXITO</h1>
+                                <h1 class="k-title-presentacion">TU FORMACIÓN <br> HACIA EL <br> ÉXITO</h1>
                                 <p class="lead k-parrafo-presentacion">
                                     Adquiere habilidades con los cursos, certificados y diplomados en línea que ofrece la institución el Tecnológico en convenio con instituciones acreditadas por la SUNEDU.
                                 </p>
@@ -81,8 +81,8 @@
         <!-- CINTA DE PRESENTACIÓN DE LA PÁGINA DE ITEC -->
         <section class="k-cinta py-5">
 
-            <div class="container ">
-                <h1>ÚNETE Y <br> APRENDE CON <br> LOS MEJORES!!</h1>
+            <div class="container">
+                <h1 class="pt-5"> <span class="titulo-itec">ÚNETE</span> <br> Y APRENDE CON <br> LOS MEJORES!!</h1>
                 Contamos con los mejores docentes. . .
 
                 <div class="row py-4">
@@ -106,34 +106,6 @@
 
         </section>
 
-        <!-- CUERPO 1 -->
-        <section>
-            <div class="container py-5">
-                <h2 class="mb-5 text-center k-titulo-pc1">Alcanza tus metas con ITEC el Tecnológico</h2>
-                <div class="row text-center">
-                    <div class="col-md-3">
-                        <img src="./views/assets/icons/leer.png" alt="" width="70px">
-                        <h4 class="k-titulo-c1 mt-4">Aprende las <br> habilidades más <br> recientes</h4>
-                        <p class="lead">Como ofimática, diseño gráfico, gestión publica, ingles, TIC y muchos más. </p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="./views/assets/icons/cientifico-de-datos.png" alt="" width="70px">
-                        <h4 class="k-titulo-c1 mt-4">Prepárate <br> para una carrera <br> profesional</h4>
-                        <p class="lead">En campos de mucha demanda, como TI, Administración publica e Ingles.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="./views/assets/icons/ganador.png" alt="" width="70px">
-                        <h4 class="k-titulo-c1 mt-4">Obtén un <br> diplomado</h4>
-                        <p class="lead">De una de las mejores instituciones en convenio con instituciones y universidades acreditas.</p>
-                    </div>
-                    <div class="col-md-3">
-                        <img src="./views/assets/icons/clasificacion.png" alt="" width="70px">
-                        <h4 class="k-titulo-c1 mt-4">Mejora tu <br> organización</h4>
-                        <p class="lead">Con programas de desarrollo y capacitación con mucha demanda.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- SECCION CUERPO 2 -->
         <section class="k-slider py-5">
@@ -147,7 +119,7 @@
                         </video>
                     </div>
                     <div class="col-md-5">
-                        <h4 class="h2 k-title-presentacion">ENCUENTRA OPCIONES <br> FLEXIBLES Y <br> ASEQUIBLES</h4>
+                        <h4 class="h2 k-title-presentacion">ENCUENTRA OPCIONES <br> <span class="titulo-itec">FLEXIBLES</span> Y <br> ASEQUIBLES</h4>
                         <p class="mt-4 lead k-parrafo-presentacion">Elige entre muchas opciones, incluidas cursos gratuitos y diplomados a un precio innovador. Aprende a tu propio ritmo, 100% en linea</p>
                     </div>
                 </div>
@@ -155,7 +127,7 @@
         </section>
 
         <!-- seccion de slider EJMPLO -->
-        <section class="k-slider">
+        <section class="k-slider k-slider-coment">
 
             <!-- <div class="container k-text">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quos officiis consequatur obcaecati unde, assumenda deserunt iusto voluptates delectus ipsa.
@@ -197,6 +169,66 @@
             </div>
 
         </section>
+
+
+
+        
+        <!-- EL TECNOLOGICO EN CIFRAS -->
+        <section class="k-cifras">
+            <div class="container py-5">
+                <h2 class="text-center pt-3 pb-5 k-cifras_title"><span class="title_itec">"EL TECNOLÓGICO"</span> EN CIFRAS</h2>
+                <div class="row text-center">
+                    <div class="col-md-4 lead k-cifras_item">
+                        <span class="cifra-num">+65.000</span> 
+                        Estudiantes
+                    </div>
+                    <div class="col-md-4 lead k-cifras_item">
+                        <span class="cifra-num">+60.000</span> 
+                        Estudiantes certificados
+                    </div>
+                    <div class="col-md-4 lead k-cifras_item">
+                        <span class="cifra-num">+20</span> 
+                        Cursos gratuitos cada mes
+                    </div>
+                    <div class="col-md-12 lead k-cifras_item">
+                        <span class="cifra-num">+90%</span> 
+                        de egresados satisfechos con la educación recibida.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- CUERPO 1 -->
+        <section>
+            <div class="container py-5">
+                <h2 class="mb-5 text-center k-titulo-pc1">Alcanza tus metas con ITEC <span class="titulo-itec"> el Tecnológico</span></h2>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <img src="./views/assets/icons/leer.png" alt="" width="70px">
+                        <h4 class="k-titulo-c1 mt-4">Aprende las <br> habilidades más <br> recientes</h4>
+                        <p class="lead">Como ofimática, diseño gráfico, gestión publica, ingles, TIC y muchos más. </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./views/assets/icons/cientifico-de-datos.png" alt="" width="70px">
+                        <h4 class="k-titulo-c1 mt-4">Prepárate <br> para una carrera <br> profesional</h4>
+                        <p class="lead">En campos de mucha demanda, como TI, Administración publica e Ingles.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./views/assets/icons/ganador.png" alt="" width="70px">
+                        <h4 class="k-titulo-c1 mt-4">Obtén un <br> diplomado</h4>
+                        <p class="lead">De una de las mejores instituciones en convenio con instituciones y universidades acreditas.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="./views/assets/icons/clasificacion.png" alt="" width="70px">
+                        <h4 class="k-titulo-c1 mt-4">Mejora tu <br> organización</h4>
+                        <p class="lead">Con programas de desarrollo y capacitación con mucha demanda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
         <!-- SOCIAL MENSAJERIA -->
