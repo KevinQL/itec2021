@@ -11,7 +11,22 @@
     class adminModel{
 
 
-
+        protected function consultaData_Model($data){
+            $eval = false;
+            $msj_sys = "No se obtubo registros";
+            $query =  "SELECT * FROM certificados_temp WHERE dni='{$data->dni}'";
+            $res = mainModel::ejecutar_una_consulta($query);
+            $data_res = [];
+            if($res->rowCount() >= 1){
+                $eval = true;
+                $msj_sys = "Se obtubo registros!!";
+                while ($regis_fla = $res->fetch(PDO::FETCH_ASSOC)) {
+                    # code...
+                    $data_res[] = $regis_fla;
+                }
+            }
+            return ["eval" => $eval, "data" => $data_res, "msj" => $msj_sys];
+        }
 
 
         

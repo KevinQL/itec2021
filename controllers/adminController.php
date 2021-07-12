@@ -75,6 +75,15 @@
 
 
 
+        public function consultaData_Controller($data){
+            $dataModel = new StdClass;
+            $dataModel->dni = $data->txt_documentv;
+
+            $res = self::consultaData_Model($dataModel);
+
+            return $res;
+        }
+
         
 
     }

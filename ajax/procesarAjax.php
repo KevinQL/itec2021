@@ -16,10 +16,10 @@
         $obj = new adminController();
 
         //Regitro usuario para la administración del sistema 
-        if ($data->id === "exe-registroUser") {
+        if ($data->id === "exe-certificado") {
             # code...
-            // $res = $obj->insert_user_Controller($data);
-            echo json_encode($data);
+            $res = $obj->consultaData_Controller($data);
+            echo json_encode($res);
         }
         elseif ($data->id === "exe-info") {
             # code...
