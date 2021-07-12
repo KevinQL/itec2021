@@ -39,9 +39,9 @@ function btn_buscarCertificados(){
                 res_html += ` 
                 <tr>
                     <th scope="row">${num++}</th>
+                    <td>${element.registro}</td>
                     <td>${element.nombre_apellido}</td>
-                    <td>${element.dni}</td>
-                    <td>@mdo</td>
+                    <td>${element.curso}</td>
                 </tr>
                 `;
             });
