@@ -19,7 +19,7 @@
         if ($data->id === "exe-certificado") {
             # code...
             $res = $obj->consultaData_Controller($data);
-            echo json_encode($res);
+            echo json_encode($data);
         }
         elseif ($data->id === "exe-info") {
             # code...

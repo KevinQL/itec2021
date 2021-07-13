@@ -24,12 +24,21 @@ function btn_buscarCertificados(){
     let {txt_documentv} = data.values;
     let {resultado} = data.elements;
 
+    // response captcha
+    let g_captcha = document.querySelector("textarea[name=g-recaptcha-response]").value;
+    let h_captcha = document.querySelector("textarea[name=h-captcha-response]").value;
+
+    console.log(h_captcha, g_captcha);
+
+
     fetchKev("POST",{
             id : "exe-certificado",
-            txt_documentv
+            txt_documentv,
+            g_captcha,
+            h_captcha
         }, res => {
-            console.log(res)
-
+            // console.log(res)
+            // return;
             let $data_user = res.data
 
             let res_html = ``;

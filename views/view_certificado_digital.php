@@ -6,7 +6,18 @@
             include_once("./views/secctions/header_links.html");
         ?>
 
+        <script src="https://hcaptcha.com/1/api.js" async defer></script>
+
         <title>Validar Certificado</title>
+
+        <style>
+            /* .fondo{
+                background-image: url("./views/assets/images/educacion.jpg");
+                background-position: center;
+                height: 100px;
+            } */
+        </style>
+
     </head>
     <body>
 
@@ -22,11 +33,16 @@
 
         <!-- SECCION CERTIFICADO -->
 
-        <section class="k-seccionCertificado">
+        <section class="k-seccionCertificado">  
             <div class="container">
                 <div class="k-header_certi">
-                    <h1 class="titulo-certi">INGRESA TU <br> NUM. DOCUMENTO</h1>
-                    <input type="text" class="txt_document" id="txt_document" placeholder="INGRESA TU NUMERO DE DOCUMENTO">
+                    <h1 class="titulo-certi"><span class="titulo-itec">INGRESA</span> TU <br> NUM. DOCUMENTO</h1>
+                    <input type="text" class="txt_document  k-input-b" id="txt_document" placeholder="INGRESA TU NUMERO DE DOCUMENTO">
+
+                    <div class="pt-2 text-center">
+                        <div class="h-captcha" data-sitekey="416bccfc-fad7-4d20-943f-d777f922a11d">
+                        </div>
+                    </div>
 
                     <button class="btn-buscar-certi" onclick="btn_buscarCertificados();"> 
                         BUSCAR 
@@ -36,7 +52,7 @@
                 <div>
 
                     <table class="table">
-                        <thead>
+                        <thead class="text-center">
                             <tr>
                                 <th scope="col">Enum.</th>
                                 <th scope="col">Registro</th>
@@ -44,7 +60,7 @@
                                 <th scope="col">Curso</th>
                             </tr>
                         </thead>
-                        <tbody class="resultado" id="resultado">
+                        <tbody class="resultado text-center" id="resultado">
                             <tr>
                                 <th scope="row">1</th>
                                 <td>Nombre y Apellido</td>
@@ -58,9 +74,10 @@
                                 <td>@fat</td>
                             </tr>
                             <tr>
-                                <th scope="row">3</th>
-                                <td colspan="2">Larry the Bird</td>
-                                <td>@twitter</td>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
                             </tr>
                         </tbody>
                     </table>
@@ -87,3 +104,10 @@
         ?>
     </body>
 </html>
+
+
+
+<!-- 
+<a href='https://www.freepik.es/fotos/tecnologia'>Foto de Tecnología creado por freepik - www.freepik.es</a>
+
+ -->

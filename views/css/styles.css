@@ -205,6 +205,12 @@
 .k-academicos .k-autoridades div {
   margin: 3px;
 }
+.k-academicos .k-autoridades div img {
+  border: 3px solid #011E40;
+  padding: 5px 3px;
+  border-radius: 10%;
+  box-shadow: 3px 3px #0377FF, -1em 0 0.4em #011E40;
+}
 .k-academicos .k-autoridades div span {
   font-weight: bold;
 }
@@ -242,9 +248,12 @@
 }
 
 .k-seccionCertificado {
-  background-color: blanchedalmond;
+  background-color: #000;
+  background-image: url("../assets/images/educacion2.png");
+  background-position: center;
   padding-top: 50px;
-  min-height: 80vh;
+  padding-bottom: 100px;
+  min-height: 100vh;
 }
 
 .k-header_certi {
@@ -253,23 +262,49 @@
 }
 
 .titulo-certi {
-  color: brown;
   font-size: 2rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   letter-spacing: 2px;
   font-weight: bolder;
   text-align: center;
   display: inline;
-  background-color: yellow;
+  color: white;
+  background-color: rgba(0, 110, 255, 0.118);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
 }
 
 .btn-buscar-certi {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.631);
   color: #fff;
   padding: 15px 20px;
   margin: 10px 0px;
+  border: 0.3px solid transparent;
+  border-radius: 5px;
+  transition: all linear 0.3s;
+}
+
+.btn-buscar-certi:hover {
+  border: 0.3px solid #011E40;
+  background-color: #011E40;
+  color: white;
+}
+
+.resultado {
+  color: white;
+}
+
+.k-input-b {
+  background-color: #011e4010;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 1.1rem;
+  text-align: center;
   border: none;
-  border-radius: 14px;
+  border-bottom: 1px solid #90c4ff;
+  color: white;
+  border-radius: 0px;
 }
 
 .titulo-itec {

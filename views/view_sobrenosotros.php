@@ -120,7 +120,7 @@
                 <div class="row text-center" >
                     <div class="col-md-3">
                         <div  class="k-card">
-                            <img src="#" alt="itec">
+                            <img src="./views/assets/itec/icons/metodologia-CLASES-EN-TIEMPO-REAL.png" alt="itec" width="100px">
                             <h5 class="k-card_title">CLASE EN TIEMPO REAL</h5>
                             <p class="lead">
                                 Clases en vivo con el instructor donde podrás consular en línea toda duda relacionada a la clase.
@@ -129,7 +129,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="k-card">
-                            <img src="#" alt="itec">
+                            <img src="./views/assets/itec/icons/metodologia-MATERIALES.png" alt="itec" width="100px">
                             <h5 class="k-card_title">MATERIALES</h5>
                             <p class="lead">
                                 Material de lectura detallado y didáctico relacionado a cada sesión clase.
@@ -138,7 +138,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="k-card">
-                            <img src="#" alt="itec">
+                            <img src="./views/assets/itec/icons/metodologia-VIDEO-DE-CLASE.png" alt="itec" width="100px">
                             <h5 class="k-card_title">VIDEO DE CLASE</h5>
                             <p class="lead">
                                 Clases grabadas de cada sesión desarrollada
@@ -147,7 +147,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="k-card">
-                            <img src="#" alt="itec">
+                            <img src="./views/assets/itec/icons/metodolgia-MINIVIDEOS.png" alt="itec" width="100px">
                             <h5 class="k-card_title">MINIVIDEOS DE CLASE</h5>
                             <p class="lead">
                                 Durante la semana recibirá en el grupo de WhatsApp minivideos de las sesiones desarrolladas
@@ -159,7 +159,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="k-card">
-                            <img src="#" alt="itec">
+                            <img src="./views/assets/itec/icons/metodologia-FOROS.png" alt="itec" width="100px">
                             <h5 class="k-card_title">FOROS</h5>   
                             <p class="lead">
                                 Preguntas planteadas por el instructor donde podrás aportar tus conocimientos con argumentos sólidos.
@@ -168,7 +168,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="k-card">
-                            <img src="#" alt="itec">
+                            <img src="./views/assets/itec/icons/metodologia-ATENCIÓN-PERSONALIZADA.png" alt="itec" width="100px">
                             <h5 class="k-card_title">ATENCIÓN PERSONALIZADA</h5>
                             <p class="lead">
                                 Después de cada sesión de clase podrá contactarse con el coordinador del curso si tuviera alguna duda.
@@ -194,12 +194,12 @@
                 <!-- Autoridades -->
                 <div class="k-autoridades pt-3 pb-4">
                     <div>
-                        <img src="#" alt="img"> <br>
+                        <img src="./views/assets/itec/yuri.jpeg" alt="img" width="120px"> <br>
                         Ing. Yuri Ccahuana Huamaní <br>
                         <span>GERENTE GENERAL</span>
                     </div>
                     <div>
-                        <img src="#" alt="img"> <br>
+                        <img src="./views/assets/itec/raquel.jpeg" alt="img" width="120px"> <br>
                         Lic. Raquel Mallcco Huaraca <br>
                         <span>DIRECTORA ACADÉMICA / ADMINISTRADORA</span>
                     </div>
