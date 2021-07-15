@@ -37,8 +37,9 @@
             <div class="container">
                 <div class="k-header_certi">
                     <h1 class="titulo-certi"><span class="titulo-itec">INGRESA</span> TU <br> NUM. DOCUMENTO</h1>
-                    <input type="text" class="txt_document  k-input-b" id="txt_document" placeholder="INGRESA TU NUMERO DE DOCUMENTO">
+                    <input type="number" class="txt_document  k-input-b" id="txt_document" placeholder="INGRESA TU NUMERO DE DOCUMENTO">
 
+                    <!-- Elemento hCaptcha -->
                     <div class="pt-2 text-center">
                         <div class="h-captcha" data-sitekey="416bccfc-fad7-4d20-943f-d777f922a11d">
                         </div>
@@ -52,32 +53,20 @@
                 <div>
 
                     <table class="table">
-                        <thead class="text-center">
+                        <thead class="text-center text-white">
                             <tr>
-                                <th scope="col">Enum.</th>
-                                <th scope="col">Registro</th>
-                                <th scope="col">Nombre y Apellidos</th>
-                                <th scope="col">Curso</th>
+                                <th scope="col">REGISTRO</th>
+                                <th scope="col">NOMBRE Y APELLIDOS</th>
+                                <th scope="col">CURSO</th>
+                                <th scope="col">FECHA DE EMISIÓN</th>
                             </tr>
                         </thead>
                         <tbody class="resultado text-center" id="resultado">
                             <tr>
-                                <th scope="row">1</th>
-                                <td>Nombre y Apellido</td>
-                                <td>Curso</td>
+                                <th scope="row"></th>
                                 <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>

@@ -8,18 +8,18 @@
     }
 
 
-    class adminModel{
+    class adminModel extends mainModel{
 
 
         protected function consultaData_Model($data){
             $eval = false;
-            $msj_sys = "No se obtubo registros";
+            $msj_sys = "No se encontró el registros";
             $query =  "SELECT * FROM certificados_temp WHERE dni='{$data->dni}'";
             $res = mainModel::ejecutar_una_consulta($query);
             $data_res = [];
             if($res->rowCount() >= 1){
                 $eval = true;
-                $msj_sys = "Se obtubo registros!!";
+                $msj_sys = "Se encontró el registro!!";
                 while ($regis_fla = $res->fetch(PDO::FETCH_ASSOC)) {
                     # code...
                     $data_res[] = $regis_fla;
