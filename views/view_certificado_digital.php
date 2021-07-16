@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="k-header_certi">
                     <h1 class="titulo-certi"><span class="titulo-itec">INGRESA</span> TU <br> NUM. DOCUMENTO</h1>
-                    <input type="number" class="txt_document  k-input-b" id="txt_document" placeholder="INGRESA TU NUMERO DE DOCUMENTO">
+                    <input type="number" class="txt_document  k-input-b" id="txt_document" placeholder="INGRESA AQUÍ TU NUM. DOCUMENTO">
 
                     <!-- Elemento hCaptcha -->
                     <div class="pt-2 text-center">
@@ -50,10 +50,10 @@
                     </button>
                 </div>
 
-                <div>
+                <div class="tabled_div">
 
                     <table class="table">
-                        <thead class="text-center text-white">
+                        <thead class="text-center titulo-itec">
                             <tr>
                                 <th scope="col">REGISTRO</th>
                                 <th scope="col">NOMBRE Y APELLIDOS</th>
@@ -62,12 +62,18 @@
                             </tr>
                         </thead>
                         <tbody class="resultado text-center" id="resultado">
-                            <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                            <!-- <tr>
+                                <th scope="row">Loremasasas ipsum dolor sit amet.</th>
+                                <td>kevin123456dasasas quispe lima</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eaque!</td>
+                                <td>kevin quispe lima</td>
                             </tr>
+                            <tr>
+                                <th scope="row">Loremasasas ipsum dolor sit amet.</th>
+                                <td>kevin123456dasasas quispe lima</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, eaque!</td>
+                                <td>kevin quispe lima</td>
+                            </tr> -->
                         </tbody>
                     </table>
             

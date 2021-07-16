@@ -291,6 +291,11 @@
   color: white;
 }
 
+.tabled_div {
+  overflow-x: scroll;
+  background-color: #011E40;
+}
+
 .resultado {
   color: white;
 }
@@ -303,8 +308,15 @@
   text-align: center;
   border: none;
   border-bottom: 1px solid #90c4ff;
-  color: white;
+  border-top: 0.1px dashed #90c4ff;
+  border-left: 0.1px dashed #90c4ff;
+  border-right: 0.1px dashed #90c4ff;
   border-radius: 0px;
+  color: white;
+}
+
+.k-input-b::placeholder {
+  color: rgba(255, 235, 205, 0.555);
 }
 
 .titulo-itec {
