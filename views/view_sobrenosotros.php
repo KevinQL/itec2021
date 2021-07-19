@@ -51,19 +51,19 @@
                 <h2 class="text-center pt-3 pb-5 k-cifras_title"><span class="title_itec">"EL TECNOLÓGICO"</span> EN CIFRAS</h2>
                 <div class="row text-center">
                     <div class="col-md-4 lead k-cifras_item">
-                        <span class="cifra-num">+65.000</span> 
+                        <span class="cifra-num" data-cantidad-total="65000" data-numero="+65 000" data-incremento="80">0</span> <!-- +65 000 -->
                         Estudiantes
                     </div>
                     <div class="col-md-4 lead k-cifras_item">
-                        <span class="cifra-num">+60.000</span> 
+                        <span class="cifra-num" data-cantidad-total="60000" data-numero="+60 000" data-incremento="80">0</span> <!-- +60 000 -->
                         Estudiantes certificados
                     </div>
                     <div class="col-md-4 lead k-cifras_item">
-                        <span class="cifra-num">+20</span> 
+                        <span class="cifra-num" data-cantidad-total="20" data-numero="+20" data-incremento="1000">0</span> <!-- +20 -->
                         Cursos gratuitos cada mes
                     </div>
                     <div class="col-md-12 lead k-cifras_item">
-                        <span class="cifra-num">+90%</span> 
+                        <span class="cifra-num" data-cantidad-total="90" data-numero="+90%" data-incremento="1000">0</span> <!-- +90% -->
                         de egresados satisfechos con la educación recibida.
                     </div>
                 </div>

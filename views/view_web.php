@@ -138,23 +138,29 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class=" k-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, omnis eius impedit aliquid voluptatibus dolorum voluptas delectus velit cumque quasi error earum harum eveniet iure.</p>
-                        <h4 class="pt-2">Autor. Lorem, ipsum dolor.</h4>
-                        <p>Andahuaylas - abril 2021</p>
+                        <p>
+                            Itec me dio una ruta de aprendizaje y los videos del canal de Itec me resultaron motivacionales. Nuestro mundo ha cambiado muchisimo. 
+                        </p>
+                        <h4 class="pt-2">Autor. Eduardo Escalante.</h4>
+                        <p>Perú - abril 2021</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class=" k-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempora similique quam totam hic eaque iste eos dolor illo a.</p>
-                        <h4 class="pt-2">Autor. Lorem, ipsum dolor.</h4>
-                        <p>Andahuaylas - marzo 2019</p>
+                        <p>
+                            Gracias por el programa, descubrí lo mucho que me gustaba el diseno, a todo el que quiera estudiar tecnología: no lo hagan por el dinero que puedan recibir.
+                        </p>
+                        <h4 class="pt-2">Autor. Juan Carlos</h4>
+                        <p>Perú - marzo 2019</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class=" k-text">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quos officiis consequatur obcaecati unde, assumenda deserunt iusto voluptates delectus ipsa.</p>
-                        <h4 class="pt-2">Autor. Lorem, ipsum dolor.</h4>
-                        <p>Andahuaylas - septiembre 2020</p>
+                        <p>
+                            Si solo con lo que estudie en un mes en Itec puede aprender sobre diseno y conseguir empleo, imaginate lo que harías tu en más tiempo.
+                        </p>
+                        <h4 class="pt-2">Autor. Marco Olvera.</h4>
+                        <p>Argentina - septiembre 2020</p>
                     </div>
                 </div>
             </div>
@@ -179,19 +185,19 @@
                 <h2 class="text-center pt-3 pb-5 k-cifras_title"><span class="title_itec">"EL TECNOLÓGICO"</span> EN CIFRAS</h2>
                 <div class="row text-center">
                     <div class="col-md-4 lead k-cifras_item">
-                        <span class="cifra-num">+65.000</span> 
+                        <span class="cifra-num" data-cantidad-total="65000" data-numero="+65 000" data-incremento="80">0</span> <!-- +65 000 -->
                         Estudiantes
                     </div>
                     <div class="col-md-4 lead k-cifras_item">
-                        <span class="cifra-num">+60.000</span> 
+                        <span class="cifra-num" data-cantidad-total="60000" data-numero="+60 000" data-incremento="80">0</span> <!-- +60 000 -->
                         Estudiantes certificados
                     </div>
                     <div class="col-md-4 lead k-cifras_item">
-                        <span class="cifra-num">+20</span> 
+                        <span class="cifra-num" data-cantidad-total="20" data-numero="+20" data-incremento="1000">0</span> <!-- +20 -->
                         Cursos gratuitos cada mes
                     </div>
                     <div class="col-md-12 lead k-cifras_item">
-                        <span class="cifra-num">+90%</span> 
+                        <span class="cifra-num" data-cantidad-total="90" data-numero="+90%" data-incremento="1000">0</span> <!-- +90% -->
                         de egresados satisfechos con la educación recibida.
                     </div>
                 </div>

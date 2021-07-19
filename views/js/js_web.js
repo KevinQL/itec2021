@@ -76,3 +76,77 @@ cli.addEventListener("click", ()=>{
         }, 10);
 
 })
+
+
+
+
+
+
+/**
+ * Animación para las cifras en la página principal
+ */
+
+function animacion_cifras() {
+    let contadores = document.querySelectorAll(".cifra-num");
+
+    for (const contador of contadores) {
+
+        const actualizar_contador = () => {
+            
+            let num = parseInt(contador.innerHTML.replace(" ","").replace("+",""));
+            let num_max = parseInt(contador.dataset.cantidadTotal);
+            let incremento = parseInt(contador.dataset.incremento);
+            let division = num_max / incremento;
+            
+            num = Math.ceil(num + division);
+            contador.innerHTML = num;
+            console.log("response", num)
+            if( num < num_max ){
+                setTimeout( actualizar_contador , 50);
+            }else{
+                console.log("termino!!!")
+                contador.innerHTML = contador.dataset.numero;
+            }
+
+        }
+
+        actualizar_contador();
+
+    }
+
+}
+
+
+
+//--------- API observer
+var boxElement;
+var prevRatio = 0.0;
+
+// Set things up.
+let estado_cifras = true;
+window.addEventListener("load", function(event) {
+    boxElement = document.querySelector(".k-cifras");
+    createObserver();
+},  false);
+
+
+function createObserver() {
+    var observer;
+    var options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.4
+    };
+    observer = new IntersectionObserver(handleIntersect, options);
+    observer.observe(boxElement);
+}
+
+function handleIntersect(entries, observer) {
+    if(entries[0].intersectionRatio > prevRatio){
+        if(estado_cifras){
+            // console.log("ENTRO ")
+            estado_cifras = !estado_cifras;
+            animacion_cifras();
+        }
+    }
+}
