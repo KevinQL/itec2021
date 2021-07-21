@@ -58,6 +58,15 @@
             unset($obj);
             echo json_encode($res);
         }
+
+
+        elseif ($data->id === "registrate") {
+            # code...
+            $res = $obj->registrarUsuario_Controller($data);
+            echo json_encode($res);
+        }
+
+
         elseif ($data->id === "exe-info") {
             # code...
             // $res = $obj->traerInfoDocente_Controller($data);

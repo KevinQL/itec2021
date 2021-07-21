@@ -319,6 +319,51 @@
   color: rgba(255, 235, 205, 0.555);
 }
 
+.k-session {
+  height: 100vh;
+  background-color: darkmagenta;
+}
+.k-session .k-card {
+  width: 380px;
+  background-color: cadetblue;
+  padding: 10px 30px;
+  margin-top: 5%;
+  border: none;
+  border-radius: 5px;
+}
+.k-session .k-card input {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 8px;
+  margin: 3px 0px;
+  font-size: 0.9rem;
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+}
+@media (max-width: 600px) {
+  .k-session .k-card {
+    width: 90%;
+    margin-top: 30%;
+  }
+}
+.k-session .k-card button {
+  background-color: cadetblue;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 30px;
+  margin: auto;
+}
+.k-session .k-card button:hover {
+  background-color: chocolate;
+}
+
+.k-centrar {
+  display: flex;
+  justify-content: center;
+}
+
 .titulo-itec {
   letter-spacing: 2px;
   font-weight: bolder;

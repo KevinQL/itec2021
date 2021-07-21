@@ -6,68 +6,46 @@
             include_once("./views/secctions/header_links.html");
         ?>
 
-        <title>CERTIFICADO DIGITAL</title>
+        <title>REGISTRATE ITEC</title>
     </head>
-    <body>
+    <body id="view_registrate">
+
+        <!-- SECCIÓN DE INDICADOR DE PAGINA DE CARGA (PRE LOADER) -->
+        <?php
+            include_once("./views/components/presentacion-precarga.html");
+        ?>
         
         <!-- NAVEGACIÓN DE LAPAGINA DE ITEC -->
         <?php
             include_once( URL_SECCTIONS . "navegacion_principal.html");
         ?>
 
-        <!-- SECCIÓN PRESENTACIÓN -->
-        <section class="k-presentacion ">
+        <!-- SECCIÓN registrate -->
+        <section class="k-session">
+            <div class="container k-centrar">
+                <div class="k-card">
+                    <h2>ITEC Registro</h2>
+                    <input type="email" name="email"  class="email" placeholder="Ingresa su correo">
+                    <input type="password" name="password"  class="password" placeholder="Ingrese su contrasena">
+                    <input type="password" name="password-repeat"  class="password-repeat" placeholder="Ingrese nuevamente su contrasena">
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="k-grid k-content-left ">
-                            <form action="#">
-                                <label for="">Nombre: </label> <input type="text" > <br>
-                                <label for="">Correo: </label> <input type="text" > <br>
-                                <label for="">telf: </label> <input type="text" > <br>
-                                <label for="">Detalles: </label> <input type="text" > <br>
-                                <input type="submit" value="REGISTARSE">
-                            </form>
-                        </div>
+                    <div class="content-btn text-center pt-2 pb-3">
+                        <button onclick="execute_registrate();">
+                            REGISTRARME
+                        </button>
+                        <br>
+                        <a href="?pg=login">Iniciar Session</a>
                     </div>
-                    <div class="col-md-6">
-                        <div class="k-grid k-content-left ">
-                            <div>
-                                <h1 class="k-title-presentacion">REGÍSTRATE Y<br> PREPÁRATE CON <br> NOSOTROS!!</h1>
-                                <div class="k-social my-2">
-                                    <span>
-                                        <a href="#">
-                                            <img src="./views/assets/facebook.png" width="30px" alt="">
-                                        </a>
-                                    </span>
-                                    <span>
-                                        <a href="#">
-                                            <img src="./views/assets/instagram.png" width="30px" alt="">
-                                        </a>
-                                    </span>
-                                    <span>
-                                        <a href="#">
-                                            <img src="./views/assets/youtube.png" width="30px" alt="">
-                                        </a>
-                                    </span>
-                                    <span>
-                                        <a href="#">
-                                            <img src="./views/assets/gorjeo.png" width="30px" alt="">
-                                        </a>
-                                    </span>
-                                </div>
-                                <p class="lead k-parrafo-presentacion">
-                                    Adquiere habilidades con los cursos, certificados y diplomados en línea que ofrece la institución el Tecnológico en convenio con instituciones acreditadas por la SUNEDU.
-                                </p>
-                                
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
-
         </section>
+
+
+        <!-- SOCIAL MENSAJERIA -->
+        <?php
+            include_once("./views/components/social.html");
+        ?>
 
 
         <!-- FOOTER DE LA PÁGINA DE ITEC -->

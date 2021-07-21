@@ -1,0 +1,46 @@
+.k-session{
+    height: 100vh;
+    background-color: darkmagenta;
+    .k-card{
+        width: 380px;
+        background-color: cadetblue;
+        padding: 10px 30px;
+        margin-top: 5%;
+        border: none;
+        border-radius: 5px;
+
+        input{
+            display: inline-block;
+            width: 100%;
+            padding: 5px 8px;
+            margin: 3px 0px;
+            font-size: .9rem;
+            height: 40px;
+
+            border: none;
+            border-radius: 3px;
+        }
+        @media (max-width: 600px) {
+            width: 90%;
+            margin-top: 30%;
+        }
+
+        button{
+            background-color: cadetblue;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            padding: 10px 30px;
+            margin: auto;
+            &:hover{
+                background-color: chocolate;
+            }
+        }
+    }
+}
+
+//centrar elemenetos
+.k-centrar{
+    display: flex;
+    justify-content: center;
+}

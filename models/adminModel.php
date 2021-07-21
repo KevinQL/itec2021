@@ -10,6 +10,38 @@
 
     class adminModel extends mainModel{
 
+        protected function compruebaEmail_Model($email){
+            $eval = false;
+            $msj = "El correo no se registró";
+
+            $query = "SELECT * FROM usuario 
+                        WHERE email = '{$email}'";
+            $res = mainModel::ejecutar_una_consulta($query);
+            if($res->rowCount() >= 1){
+                $eval = true;
+                $msj = "El correo ya se registró"; 
+            }
+
+            return ["eval"=>$eval, "msj"=>$msj];
+        }
+
+        protected function registrarUsuario_Model($data){
+            $eval = false;
+            $msj = "No se registro el usuario";
+            $password_encript = self::encriptar_desencriptar($data->password, '');
+
+            $query = "INSERT INTO usuario 
+                        SET email = '{$data->email}',
+                            password = '{$password_encript}' ";
+            $res = mainModel::ejecutar_una_consulta($query);
+            if($res->rowCount() >= 1){
+                $eval = true;
+                $msj = "Usuario registrado"; 
+            }
+
+            return ["eval"=>$eval, "msj"=>$msj];
+        }
+
 
         protected function consultaData_Model($data){
             $eval = false;
@@ -29,26 +61,6 @@
         }
 
 
-        
-        
-        //-------------------------------------------------------------------------------
-        /**
-         * (IMPORTANTE)
-         * si es verad encripta y sino desencripta
-         * @param boolean $encriptar
-         * Contraseña a encriptar o desencriptar
-         * @param string $password
-         * @return string boolean
-         * 
-         * Función que encripta y desencripta
-         */        
-        protected function encriptar_desencriptar($password,$password_db){
-            if(trim($password_db) === ''){
-                return password_hash($password, PASSWORD_DEFAULT);//Encripta (SOLO se necesita el PRIMER parametro.EJEM: ->fn('pass','')<-)
-            }else{
-                return password_verify($password,$password_db);//desencripta (SOLO cuando los DOS parametros tengan valor)
-            }
-        }
 
 
     }

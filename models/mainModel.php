@@ -122,6 +122,30 @@
             return ["eval"=>$eval, "msj"=>$msj_sys];
         }
 
+
+        //-------------------------------------------------------------------------------
+        /**
+         * (IMPORTANTE)
+         * si es verad encripta y sino desencripta
+         * @param boolean $encriptar
+         * Contraseña a encriptar o desencriptar
+         * @param string $password
+         * @return string boolean
+         * 
+         * Función que encripta y desencripta
+         */        
+        protected function encriptar_desencriptar($password,$password_db){
+            if(trim($password_db) === ''){
+                //Encripta (SOLO se necesita el PRIMER parametro.EJEM: ->fn('pass','')<-)
+                return password_hash($password, PASSWORD_DEFAULT);
+            }else{
+                //desencripta (SOLO cuando los DOS parametros tengan valor)
+                return password_verify($password,$password_db);
+            }
+        }
+
+
+
     }
 
 ?>

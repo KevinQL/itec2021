@@ -73,7 +73,22 @@
         }
 
 
+        public function registrarUsuario_Controller($data){
+            $dataModel = new stdClass;
+            $dataModel->email = $data->emailv;
+            $dataModel->password = $data->passwordv;
 
+            $res_email = self::compruebaEmail_Model($dataModel->email);
+            if(!$res_email["eval"]){
+                $res = self::registrarUsuario_Model($dataModel);
+            }else{
+                $res = $res_email;
+                $res["eval"] = false; //modificando el valor para ser tratado en el front end
+            }
+            unset($dataModel);
+            unset($res_email);
+            return $res;
+        }
 
         public function consultaData_Controller($data){
             $dataModel = new StdClass;

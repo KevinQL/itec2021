@@ -118,7 +118,7 @@ function animacion_cifras() {
 
 
 
-//--------- API observer
+//--------- API observer Para la Animación de los contadores
 var boxElement;
 var prevRatio = 0.0;
 
@@ -126,7 +126,9 @@ var prevRatio = 0.0;
 let estado_cifras = true;
 window.addEventListener("load", function(event) {
     boxElement = document.querySelector(".k-cifras");
-    createObserver();
+    if(boxElement){ //evalua que el elemento exista. Si no existe le valor es NULL
+        createObserver();
+    }
 },  false);
 
 
