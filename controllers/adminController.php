@@ -29,7 +29,7 @@
             $pagina = isset($_GET['pg']) && !empty($_GET['pg']) ? $_GET['pg'] : "defecto";
             $pagina = strtolower(trim($pagina));
 
-            $arrayPaginas = [ "login", "web", "cursos", "contactanos", "registrate", "sobrenosotros", "certification", "certificado_digital", "certificado/test-qr" ];
+            $arrayPaginas = [ "login", "registrate", "web", "sobrenosotros", "convenios", "certification", "certificado_digital", "certificado/test-qr" ];
 
             //Cuando la sessión sea VERDADERA
             if($session){
