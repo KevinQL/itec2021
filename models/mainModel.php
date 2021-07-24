@@ -136,9 +136,11 @@
          */        
         protected function encriptar_desencriptar($password,$password_db){
             if(trim($password_db) === ''){
+                //Esto devuelve un string con el HASH, el cual se almacena en la base de datos
                 //Encripta (SOLO se necesita el PRIMER parametro.EJEM: ->fn('pass','')<-)
                 return password_hash($password, PASSWORD_DEFAULT);
             }else{
+                //Esto devuelve un Booleano. True or false
                 //desencripta (SOLO cuando los DOS parametros tengan valor)
                 return password_verify($password,$password_db);
             }

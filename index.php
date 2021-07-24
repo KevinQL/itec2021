@@ -1,5 +1,4 @@
 <?php 
-
     //Iniciando la variable global SESSION
     session_start();
     
@@ -9,7 +8,7 @@
     // Configura la fecha de america lima 
     date_default_timezone_set("America/Lima");
     setlocale(LC_ALL,"es_ES");
-
+    
     // clases con los metodos necesarios 
     require_once("./core/configRoutes.php"); // RUTAS 
     require_once("./controllers/adminController.php");
@@ -18,7 +17,7 @@
     // require_once("controllers/virtualController.php");
     
     $obj_admin = new adminController();
-
+    
     /**
      * capturando el estado de lavariable SESSION
      */
@@ -30,6 +29,7 @@
      */
     $paginaResult = $obj_admin->administrarPaginasController($session);
     
+    // var_dump($_SESSION);
     include_once("./views/" . $paginaResult);     
 
 ?>

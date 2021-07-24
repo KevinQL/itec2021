@@ -10,6 +10,34 @@
 
     class adminModel extends mainModel{
 
+        protected function loginUsuario_Model($data){
+            $eval = false;
+            $msj = "Error en el Login!";
+            $data_res = [];
+
+            $query = "SELECT * FROM usuario 
+                        WHERE email = '{$data->email}' 
+                        LIMIT 1";
+            $res = mainModel::ejecutar_una_consulta($query);
+            if($res->rowCount() >= 1){
+                $data_res = $res->fetch(PDO::FETCH_ASSOC);
+                if( self::encriptar_desencriptar($data->password, $data_res["password"]) ){
+                    $eval = true;
+                    $msj = "Login correcto!"; 
+                    // load data to array $_SESSION
+                    $_SESSION["data"] = $data_res;
+                    $_SESSION["start"] = true;
+                }
+
+            }
+
+            return ["eval"=>$eval,"data"=>$data_res, "msj"=>$msj];
+        }
+
+
+        /**
+         * Registro de la persona para ingresar como administrador
+         */
         protected function compruebaEmail_Model($email){
             $eval = false;
             $msj = "El correo no se registró";
@@ -43,6 +71,9 @@
         }
 
 
+        /**
+         * Obtiene los datos del certificado en una tabla obsoleta. 
+         */
         protected function consultaData_Model($data){
             $eval = false;
             $msj_sys = "No se encontró el registros";

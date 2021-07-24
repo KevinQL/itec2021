@@ -1,22 +1,12 @@
 <?php
-    // Sugerir colocar el session_start en este archivo. Después se va tener que quitar de las otros metodos para que no haya redundancia.
-
-    // Configura la fecha de america lima 
-    date_default_timezone_set("America/Lima");
-    setlocale(LC_ALL,"es_ES");
-
-    $conAjax = true;
-
-    require_once("../controllers/adminController.php");
-
+    // configuracion de cabecera para peticiones Ajax
+    
     if(!is_null($_POST['data'])){
-        //convirtiendo los datos enviados desde la vista, ha un objeto stdClass
-        $data = json_decode($_POST['data']);
-        //Instancia del objeto controller
-        $obj = new adminController();
+        
+        include_once("./configAjax.php");
 
-        // Respuesta por defecto!!
-        $res = ["eval" => false, "data"=>[], "msj"=>"Sin efecto"];
+        //Instancias del objeto controller
+        $obj = new adminController();
 
         //Regitro usuario para la administración del sistema 
         if ($data->id === "exe-certificado") {
@@ -59,6 +49,24 @@
             echo json_encode($res);
         }
 
+        elseif ($data->id === "closed") {
+            # code...
+            // $res = $obj->closed_Controller($data); 
+            if(session_destroy()){
+                $res["eval"] = true;
+                $res["msj"] = "Saliendo del sistema Admin ITEC!!";
+            }
+            
+            echo json_encode($res);
+        }
+
+        elseif ($data->id === "login") {
+            # code...
+            $res = $obj->loginUsuario_Controller($data); //
+            
+            echo json_encode($res);
+        }
+
 
         elseif ($data->id === "registrate") {
             # code...
@@ -69,7 +77,9 @@
 
         elseif ($data->id === "exe-info") {
             # code...
-            // $res = $obj->traerInfoDocente_Controller($data);
+            // $res["eval"] = true;
+            // $res["msj"] = "Success response Ajax!!";
+            // echo json_encode($res);
             echo json_encode($data);
         }
 
