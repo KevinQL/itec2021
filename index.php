@@ -1,25 +1,18 @@
 <?php 
-    //Iniciando la variable global SESSION
-    session_start();
-    
-    // Desactivar toda las notificaciónes del PHP
-    error_reporting(0);
-    
-    // Configura la fecha de america lima 
-    date_default_timezone_set("America/Lima");
-    setlocale(LC_ALL,"es_ES");
-    
-    // clases con los metodos necesarios 
-    require_once("./core/configRoutes.php"); // RUTAS 
-    require_once("./controllers/adminController.php");
-    // require_once("controllers/{ejemplo}Controller.php");
-    // require_once("controllers/webItecController.php");
-    // require_once("controllers/virtualController.php");
-    
+
+    /**
+     * Se incluyen las configuraciones principales para 
+     * el archivo principal del proyecto
+     */
+    include_once('./configIndex.php');
+
+    /**
+     * Instancias de objetos de la capa intermedia
+     */
     $obj_admin = new adminController();
     
     /**
-     * capturando el estado de lavariable SESSION
+     * Evalua si se inicion la variable global SESSION[]
      */
     $session = $obj_admin->verificarSessionController();
     
@@ -29,7 +22,11 @@
      */
     $paginaResult = $obj_admin->administrarPaginasController($session);
     
-    // var_dump($_SESSION);
+    // var_dump($_SESSION); Eliminar está linea 
+    
+    /**
+     * Despliega la selección de la página. 
+     */
     include_once("./views/" . $paginaResult);     
 
 ?>
