@@ -1,0 +1,35 @@
+*********** aquí se detallan las librerias necesarias para ejecutar el sistema *****************
+
+El estado del servidor de apache en la implementación del proyecto de ITEC 
+se inicia con las siguietnes configuraciones:
+
+/**
+
+extension=bz2
+extension=curl
+;extension=ffi
+;extension=ftp
+extension=fileinfo
+extension=gd
+extension=gettext
+;extension=gmp
+;extension=intl
+;extension=imap
+;extension=ldap
+extension=mbstring
+extension=exif      ; Must be after mbstring as it depends on it
+extension=mysqli
+;extension=oci8_12c  ; Use with Oracle Database 12c Instant Client
+;extension=odbc
+;extension=openssl
+;extension=pdo_firebird
+extension=pdo_mysql
+;extension=pdo_oci
+;extension=pdo_odbc
+;extension=pdo_pgsql
+extension=pdo_sqlite
+;extension=pgsql
+;extension=shmop
+
+/***
+Por lo que se debe notar que el 'gd' está habilitado, ya que es posible que se ejecuten bloques de codigo que impliquen grafics
