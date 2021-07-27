@@ -8,7 +8,7 @@
     date_default_timezone_set("America/Lima");
     setlocale(LC_ALL,"es_ES");
 
-    // Access to calsses and methods for this location
+    // Access to clases and methods for this location
     $conAjax = true;
     // Response default
     $res = ["eval" => false, "data"=>[], "msj"=>"Sin efecto"];

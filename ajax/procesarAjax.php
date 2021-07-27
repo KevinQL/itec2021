@@ -55,6 +55,8 @@
             if(session_destroy()){
                 $res["eval"] = true;
                 $res["msj"] = "Saliendo del sistema Admin ITEC!!";
+            }else{
+                $res["msj"] = "No se proceso la solicitud!!";
             }
             
             echo json_encode($res);
