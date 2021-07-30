@@ -364,6 +364,18 @@
   justify-content: center;
 }
 
+.convenio_parrafo {
+  font-size: 2.5rem;
+  padding: 20px 40px;
+  letter-spacing: 2.5px;
+  font-weight: lighter;
+}
+
+.convenio_card img {
+  border: none;
+  border-radius: 14px;
+}
+
 .titulo-itec {
   letter-spacing: 2px;
   font-weight: bolder;

@@ -33,10 +33,14 @@
                                     Adquiere habilidades con los cursos, certificados y diplomados en línea que ofrece la institución el Tecnológico en convenio con instituciones acreditadas por la SUNEDU.
                                 </p>
 
-                                <button class="btn btn-primary btn-lg k-btn-unete" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                                <!-- <button class="btn btn-primary btn-lg k-btn-unete" data-bs-toggle="modal" data-bs-target="#exampleModal" >
                                     ÚNETE, ES GRATIS!
-                                </button>
-
+                                </button> -->
+                                
+                                <a class="btn btn-primary btn-lg k-btn-unete" target="_blank" href="https://api.whatsapp.com/send?phone=51953772123&text=Hola El Tecnológico, deseo información sobre el curso..." >
+                                    ÚNETE, ES GRATIS!
+                                </a>
+                                
                                 <?php
                                     // Modal Formulario información usuario
                                     include_once("./views/components/modal-form.html")

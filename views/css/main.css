@@ -19,6 +19,8 @@
 
     --color-amarisho: #FFB703;
     --color-bg-video: #8ECAE6;
+
+    --color-sin-degradado: #0276FF;
     /* COLORES ITEC */
     /* --color-itec-3:#0154B3;
     --color-itec-2:#1C86FF;
@@ -66,9 +68,9 @@
 /* Estilos navegación */
 .k-nav {
     /* background-color: var(--color-centro) !important; */
-    background: var(--color-centro) !important;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, var(--color-bg-video), var(--color-centro)) !important;  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, var(--color-bg-video), var(--color-centro)) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: var(--color-sin-degradado) !important;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, var(--color-bg-video), var(--color-centro)) !important;  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, var(--color-bg-video), var(--color-centro)) !important; W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     border: none;
 

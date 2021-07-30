@@ -18,61 +18,29 @@
         <!-- CINTA DE PRESENTACIÓN DE LA PÁGINA DE ITEC -->
         <section class="k-cinta py-5">
 
-            <div class="container ">
-                <h1>APRENDE CON <br> LOS MEJORES <br> CURSOS!!</h1>
-                Contamos con los mejores docentes. . .
-
-                <div class="row py-4">
-                    <div class="col-md-4 mt-2">
-                        <img src="./views/assets/tutor.png" width="60px" alt="">
-                        <h3>De la mano del profesor</h3>
-                        <p>Aprende técnicas y métodos de gran valor explicados por los grandes expertos del sector creativo.</p>
-                    </div>
-                    <div class="col-md-4 mt-2">
-                        <img src="./views/assets/experto.png" width="60px" alt="">
-                        <h3>Profesores expertos</h3>
-                        <p>Cada profesor imparte solo lo que mejor sabe hacer, asegurando transmitir la pasión y la excelencia en cada lección.</p>
-                    </div>
-                    <div class="col-md-4 mt-2">
-                        <img src="./views/assets/www.png" width="60px" alt="">
-                        <h3>Comparte conocimiento</h3>
-                        <p>Expón tus dudas, pide feedbac, aporta soluciones. Comparte el aprendizaje con el resto de los alumnos de la comunidad.</p>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-
-
-        <!-- SECCION CUERPO 2 -->
-        <section class="k-slider py-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-7">
-                        <!-- <h3>IMAGEN!!!</h3> -->
-                        <video src="promocion.mp4" width="100%" style="border-radius:5px" autoplay muted loop preload poster="">
-                            <!-- <source src="promocion.mp4" type="video/mp4"> -->
-                            <!-- <img src="videoimg.png" alt="Video no soportado"> -->
-                        </video>
+                
+                <h2 class="text-center titulo-itec">CONVENIOS</h2>
+
+                <p class="text-center lead convenio_parrafo ">
+                    «Juntarse es un comienzo, seguir juntos es un progreso y trabajar juntos por una educación efectiva es un éxito»
+                </p>
+
+                <div class="row pt-3 pb-4">
+                    <div class="col-md-6 text-center convenio_card">
+                        <img src="./views/assets/itec/universidad.jpg" alt="" width="100%" height="200px">
+                        <span>Universidad Nacional José María Arguedas</span>
+                        <h5>«LICENCIADA POR <span class="titulo-itec">LA SUNEDO</span> »</h5>
                     </div>
-                    <div class="col-md-5">
-                        <h4 class="h2 k-title-presentacion">ENCUENTRA OPCIONES <br> FLEXIBLES Y <br> ASEQUIBLES</h4>
-                        <p class="mt-4 lead k-parrafo-presentacion">Elige entre muchas opciones, incluidas cursos gratuitos y diplomados a un precio innovador. Aprende a tu propio ritmo, 100% en linea</p>
+                    <div class="col-md-6 text-center convenio_card">
+                        <img src="./views/assets/itec/ugel.jpg" alt="" width="100%" height="200px">
+                        <span>Unidad de Gestión Educativa Local Andahuaylas</span>
+                        <h5>«MINISTERIO <span class="titulo-itec">DE EDUCACIÓN</span> »</h5>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- seccion de slider EJMPLO -->
-        <section class="k-slider">
-
-            <div class="container k-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate quos officiis consequatur obcaecati unde, assumenda deserunt iusto voluptates delectus ipsa.
-            </div>
 
         </section>
-
 
 
 
