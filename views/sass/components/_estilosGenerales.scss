@@ -6,3 +6,12 @@
     color: $color-centro;
     // font-size: 1.7rem;
 }
+
+.nav_title_a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color: rgb(240, 240, 240);
+        text-decoration: overline;
+    }
+}

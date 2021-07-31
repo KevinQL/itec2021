@@ -382,4 +382,13 @@
   color: #0377FF;
 }
 
+.nav_title_a {
+  text-decoration: none;
+  color: white;
+}
+.nav_title_a:hover {
+  color: #f0f0f0;
+  text-decoration: overline;
+}
+
 /*# sourceMappingURL=styles.css.map */
