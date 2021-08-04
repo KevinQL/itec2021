@@ -10,6 +10,14 @@
 
     class adminController extends adminModel {
 
+        public function obtenerEstudianteItec_Controller($data){
+            $dataModel = new stdClass;
+            $dataModel->dni = $data;
+            $res = self::obtenerEstudianteItec_Model($dataModel);
+            return $res;
+        }
+
+
         public function loginUsuario_Controller($data){
             $dataModel = new stdClass;
             $dataModel->email = $data->emailv;
