@@ -10,6 +10,26 @@
 
     class adminModel extends mainModel{
 
+        /**
+         * 
+         */
+        protected function getEstudentTempItec_Model($data){
+
+            $res = mainModel::selectQuery(
+                                "*",
+                                "certificados_temp",
+                                "idcertificados_temp='{$data->idcertificados_temp}'",
+                                "Success", 
+                                "There is an error!!"
+                            );
+            
+            return $res;
+        }
+
+
+        /**
+         * 
+         */
         protected function loginUsuario_Model($data){
             $eval = false;
             $msj = "Error en el Login!";

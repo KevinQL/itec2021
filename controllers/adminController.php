@@ -10,10 +10,10 @@
 
     class adminController extends adminModel {
 
-        public function obtenerEstudianteItec_Controller($data){
+        public function getEstudentTempItec_Controller($data){
             $dataModel = new stdClass;
-            $dataModel->dni = $data;
-            $res = self::obtenerEstudianteItec_Model($dataModel);
+            $dataModel->idcertificados_temp = $data;
+            $res = self::getEstudentTempItec_Model($dataModel);
             return $res;
         }
 

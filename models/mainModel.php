@@ -24,6 +24,28 @@
             return $response;
         }
 
+        /**
+         * Automaticing the query SELECT
+         */
+        public function selectQuery($filter, $table, $condiccion, $msj_success, $msj_default){
+            $eval = false;
+            $msj = $msj_default;
+            $result_data = [];
+
+            $query = "SELECT {$filter} FROM {$table} WHERE {$condiccion}";
+            $res = self::ejecutar_una_consulta($query);
+            if($res->rowCount() >= 1){
+                $eval = true;
+                $msj = $msj_success; 
+                while ($row = $res->fetch(PDO::FETCH_ASSOC)) {
+                    # code...
+                    $result_data[] = $row;
+                }
+            }
+
+            return ["eval"=>$eval, "msj"=>$msj, "data" => $result_data];
+        }
+
         
         /**
          * Crea carpeta ysubcarpetas en el caso de que sea necesario
