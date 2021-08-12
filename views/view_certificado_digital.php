@@ -59,6 +59,7 @@
                                 <th scope="col">NOMBRE Y APELLIDOS</th>
                                 <th scope="col">CURSO</th>
                                 <th scope="col">FECHA DE EMISIÓN</th>
+                                <th scope="col">OBTENER</th>
                             </tr>
                         </thead>
                         <tbody class="resultado text-center" id="resultado">

@@ -1,3 +1,6 @@
 core/*.php
 
 public/libs/prueba.txt
+
+resources/*.rar
+resources/dev/*

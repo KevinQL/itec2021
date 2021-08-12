@@ -71,6 +71,13 @@ function btn_buscarCertificados(){
                             <td>${element.nombre_apellido}</td>
                             <td>${element.curso}</td>
                             <td>${element.fecha_emision}</td>
+                            <td>
+                                <a  target="_blank" 
+                                    href="?pg=modules/certificado/certificado&idcert_temp=${element.idcertificados_temp}"
+                                >
+                                    Obtener certificado
+                                </a>
+                            </td>
                         </tr>
                         `;
                     });
