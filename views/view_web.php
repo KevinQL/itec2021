@@ -1,12 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
     <head>
         
+        <title>EL TECNOLÓGICO</title>
+        <!-- <title>INICIO ITEC</title> -->
+        <meta name="keywords" content="web, EL TECNOLÓGICO, andahuaylas" />
+       
         <?php
             include_once("./views/secctions/header_links.html");
         ?>
-
-        <title>INICIO ITEC</title>
     </head>
     <body>
 

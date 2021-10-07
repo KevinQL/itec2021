@@ -194,7 +194,7 @@
         // $loremCurso = "asistente administrativo";
 
         $arr_certificadosPDF = array(
-              [ 'person'=>[0,0], 'nota'=>[0,0], 'horas'=>[0,0], 'fc_inicio'=>[[0,0],[0,0],[0,0]], 'fc_fin'=>[[0,0],[0,0],[0,0]],  'f_emision'=>[0,0], 'registro'=>[0,0], 'pdf'=>'1_aa.jpg', 'curso'=>"ASISTENTE ADMINISTRATIVO", 'coursedb'=>"ASISTENTE ADMINISTRATIVO" ], 
+              [ 'person'=>[63, 108], 'nota'=>[195,116], 'horas'=>[185,125], 'fc_inicio'=>[[265,130.5],[75,137],[90,137]], 'fc_fin'=>[[94.5,137],[105,137],[126,137]],  'f_emision'=>[232,162.5], 'registro'=>[25,195], 'pdf'=>'1_aa.jpg', 'curso'=>"ASISTENTE ADMINISTRATIVO", 'coursedb'=>"ASISTENTE ADMINISTRATIVO" ], 
               [ 'person'=>[0,0], 'nota'=>[0,0], 'horas'=>[0,0], 'fc_inicio'=>[[0,0],[0,0],[0,0]], 'fc_fin'=>[[0,0],[0,0],[0,0]],  'f_emision'=>[0,0], 'registro'=>[0,0], 'pdf'=>'2_c.jpg', 'curso'=>"CANVA", 'coursedb'=>"CANVA" ],
               [ 'person'=>[0,0], 'nota'=>[0,0], 'horas'=>[0,0], 'fc_inicio'=>[[0,0],[0,0],[0,0]], 'fc_fin'=>[[0,0],[0,0],[0,0]],  'f_emision'=>[0,0], 'registro'=>[0,0], 'pdf'=>'3_di.jpg', 'curso'=>"DIAPOSITIVAS IMPACTANTES", 'coursedb'=>"DIAPOSITIVAS IMPACTANTES" ],
               [ 'person'=>[0,0], 'nota'=>[0,0], 'horas'=>[0,0], 'fc_inicio'=>[[0,0],[0,0],[0,0]], 'fc_fin'=>[[0,0],[0,0],[0,0]],  'f_emision'=>[0,0], 'registro'=>[0,0], 'pdf'=>'4_ea.jpg', 'curso'=>"EXCEL AVANZADO", 'coursedb'=>"EXCEL AVANZADO" ],
@@ -211,7 +211,7 @@
               [ 'person'=>[0,0], 'nota'=>[0,0], 'horas'=>[0,0], 'fc_inicio'=>[[0,0],[0,0],[0,0]], 'fc_fin'=>[[0,0],[0,0],[0,0]],  'f_emision'=>[0,0], 'registro'=>[0,0], 'pdf'=>'15_wa.jpg', 'curso'=>"WORD AVANZADO", 'coursedb'=>"WORD AVANZADO" ],
               [ 'person'=>[0,0], 'nota'=>[0,0], 'horas'=>[0,0], 'fc_inicio'=>[[0,0],[0,0],[0,0]], 'fc_fin'=>[[0,0],[0,0],[0,0]],  'f_emision'=>[0,0], 'registro'=>[0,0], 'pdf'=>'16_wb.jpg', 'curso'=>"WORD BÁSISCO", 'coursedb'=>"WORD BÁSISCO" ],
               [ 'person'=>[0,0], 'nota'=>[0,0], 'horas'=>[0,0], 'fc_inicio'=>[[0,0],[0,0],[0,0]], 'fc_fin'=>[[0,0],[0,0],[0,0]],  'f_emision'=>[0,0], 'registro'=>[0,0], 'pdf'=>'17_wi.jpg', 'curso'=>"WORD INTERMEDIO", 'coursedb'=>"WORD INTERMEDIO" ],
-              [ 'person'=>[63,108], 'nota'=>[200,118], 'horas'=>[160,125], 'fc_inicio'=>[[265,130.5],[75,137],[90,137]], 'fc_fin'=>[[94.5,137],[105,137],[126,137]],  'f_emision'=>[232,162.5], 'registro'=>[25,195], 'pdf'=>'0_dtic.jpg', 'curso'=>"TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN PARA LA EDUCACIÓN VIRTUAL", 'coursedb'=>"TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN PARA LA EDUCACIÓN VIRTUAL" ],
+              [ 'person'=>[63,108], 'nota'=>[200,118], 'horas'=>[160,125], 'fc_inicio'=>[[265,130.5],[75,137],[90,137]], 'fc_fin'=>[[94.5,137],[105,137],[126,137]],  'f_emision'=>[232,162.5], 'registro'=>[25,195], 'pdf'=>'0_dtic.jpg', 'curso'=>"TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN PARA LA EDUCACIÓN VIRTUAL", 'coursedb'=>"TECNOLOGÍAS DE LA INFORMACIÓN Y LA COMUNICACIÓN PARA LA EDUCACIÓN VIRTUAL" ]
         );
     
         $response = [];

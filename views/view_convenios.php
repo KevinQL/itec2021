@@ -30,7 +30,7 @@
                     <div class="col-md-6 text-center convenio_card">
                         <img src="./views/assets/itec/universidad.jpg" alt="" width="100%" height="200px">
                         <span>Universidad Nacional José María Arguedas</span>
-                        <h5>«LICENCIADA POR <span class="titulo-itec">LA SUNEDO</span> »</h5>
+                        <h5>«LICENCIADA POR <span class="titulo-itec">LA SUNEDU</span> »</h5>
                     </div>
                     <div class="col-md-6 text-center convenio_card">
                         <img src="./views/assets/itec/ugel.jpg" alt="" width="100%" height="200px">
